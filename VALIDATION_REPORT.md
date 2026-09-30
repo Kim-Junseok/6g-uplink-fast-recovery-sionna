@@ -36,7 +36,7 @@ not changed; it does not tie the package to a particular manuscript PDF.
 The scan covers plain and gzip-compressed candidate files. Its generic
 home-directory match is the regular expression used by
 scripts/release/verify_integrity.py to reject personal paths. Automated
-scanning does not replace the final human rights and sensitivity review.
+scanning cannot establish ownership or detect every sensitive item.
 
 Reproduction commands, in order, are:
 
@@ -51,11 +51,11 @@ python -m unittest discover -s tests -v
 
 The full six-campaign SLS procedure is documented in SLS_REPRODUCTION.md.
 It was not executed for this candidate. A public-Sionna/PyTorch environment
-with an independently tested wheel lock is not distributed here. Before remote
-publication, the author must confirm code/data/figure reuse rights under
-the selected license scopes, confirm final-manuscript AI disclosure, set
-citation/version metadata, and review the final package for sensitive
-material. No remote, release, or DOI was created.
+with an independently tested wheel lock is not distributed here. The author
+authorized the code, data, and figure distribution terms described in
+[License scope](docs/LICENSE_SCOPE.md). This validation did not provide an
+independent legal review or fix final citation/version metadata. It did not
+create a remote, release, or DOI.
 
 The `clean_room_*` receipts document the earlier independent-path validation
 and retain its historical path names. Current-path machine-readable receipts
@@ -97,11 +97,10 @@ scripts and documentation separately.
 The machine-readable receipts from this validation are generated under
 `scratch/` by the commands in
 [Figures and accepted-record analysis](docs/FIGURES_AND_ANALYSIS.md). They
-distinguish the four validation levels. The candidate records Apache-2.0 for original
-software and CC BY 4.0 for distributed data and figures. Coauthor and
-institutional rights, final citation metadata, and sensitivity review remain
-to be confirmed before public release. The complete 136-run SLS campaign
-was not rerun.
+distinguish the four validation levels. The author selected Apache-2.0 for
+project-authored software and CC BY 4.0 for distributed data and figures.
+Final article citation metadata remains unset. The complete 136-run SLS
+campaign was not rerun.
 No new-SLS numerical tolerance was inferred from accepted-record reanalysis
 or the representative executions.
 

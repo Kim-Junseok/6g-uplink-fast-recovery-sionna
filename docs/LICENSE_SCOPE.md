@@ -1,6 +1,6 @@
 # License scope
 
-This repository separates the license for project software from the license for distributed research outputs. The author selected these terms for the public-release candidate. Coauthor and institutional rights must be confirmed before the repository is made public.
+This repository separates the license for project software from the license for distributed research outputs. The author selected and authorized the terms below for public distribution of the listed materials.
 
 | Material | License |
 |---|---|

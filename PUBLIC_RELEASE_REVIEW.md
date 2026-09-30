@@ -2,9 +2,9 @@
 
 Profile: README_DOC
 
-This is a local review candidate. It has no Git remote and has not been
-published. The private research repository and its accepted artifacts remain
-the authoritative historical record.
+This curated repository contains the selected research artifacts for public
+distribution. The private research repository and its accepted artifacts
+remain the authoritative historical record.
 
 ## Scope
 
@@ -25,7 +25,7 @@ VALIDATION_REPORT.md: 136 run manifests and 752 output hashes, 59 reanalyzed
 CSV files with zero numerical difference, and regeneration of the three
 selected figures. Those Level 1–3 checks did not execute SLS. A later Level-4 check executed one seed-9101 cell each for Fast-CB, H(K=3), and F(K=3); all three passed and their selected published seed-level KPIs matched.
 
-## Review gates before public release
+## Publication checks
 
 | Item | Candidate treatment | Release decision |
 |---|---|---|
@@ -33,11 +33,11 @@ selected figures. Those Level 1–3 checks did not execute SLS. A later Level-4 
 | Accepted raw results | Retain original hashes and document every public-copy transformation | Verify the public-copy integrity report |
 | Personal paths and identifiers | Scan source, manifests, metadata, scripts, and generated output | Review remaining matches and decide redactions |
 | Sionna and other dependencies | Install public Sionna 2.0.1; no Sionna checkout is bundled | Verify attribution and documented environment limits |
-| Code license | Apache-2.0 selected for project-authored software; see LICENSE and docs/LICENSE_SCOPE.md | Confirm coauthor and institutional rights before publication |
-| Data and figure reuse terms | CC BY 4.0 selected for distributed data and three figure PDFs; see docs/LICENSE_SCOPE.md | Confirm coauthor and institutional rights before publication |
-| Citation metadata | No final public version, DOI, or repository URL exists | Add CITATION.cff when release identity is fixed |
+| Code license | The author selected Apache-2.0 for project-authored software; see LICENSE and docs/LICENSE_SCOPE.md | Distribution authorized by the author; no independent legal review claimed |
+| Data and figure reuse terms | The author selected CC BY 4.0 for distributed data and three figure PDFs; see docs/LICENSE_SCOPE.md | Distribution authorized by the author; no independent legal review claimed |
+| Citation metadata | Final article metadata and DOI remain unset | Add CITATION.cff when the release identity is fixed |
 | AI disclosure | Proposed Acknowledgment text is in AI_ASSISTANCE.md | Confirm against the final article before submission |
-| Reviewer access | Local Git repository only | Test unauthenticated access after a separate publication decision |
+| Reviewer access | Public GitHub access is authorized | Test unauthenticated access after push |
 
 This candidate must not be described as a full SLS rerun. Its validation
 covers accepted-file integrity, reanalysis of retained raw records,

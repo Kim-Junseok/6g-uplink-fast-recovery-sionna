@@ -57,10 +57,9 @@ Sionna (Hoydis et al., 2022, version 2.0.1) using its
 Sionna is licensed separately under
 [Apache-2.0](https://github.com/NVlabs/sionna/blob/v2.0.1/LICENSE).
 
-The selected terms are Apache-2.0 for original code and CC BY 4.0 for
-distributed data and figures; see the project [LICENSE](LICENSE) and
-[license scope](docs/LICENSE_SCOPE.md). Coauthor and institutional rights
-confirmation remains open before remote publication. Sionna's license
-does not set the terms for this repository's original work. The
+Project-authored code is licensed under Apache-2.0, and distributed data
+and figures are licensed under CC BY 4.0; see the project [LICENSE](LICENSE)
+and [license scope](docs/LICENSE_SCOPE.md). Sionna's license does not set
+the terms for this repository's original work. The
 [AI assistance statement](AI_ASSISTANCE.md) records the manuscript
 acknowledgment wording.
