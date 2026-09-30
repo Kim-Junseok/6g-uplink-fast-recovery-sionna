@@ -37,7 +37,7 @@ selected figures. Those Level 1–3 checks did not execute SLS. A later Level-4 
 | Data and figure reuse terms | The author selected CC BY 4.0 for distributed data and three figure PDFs; see docs/LICENSE_SCOPE.md | Distribution authorized by the author; no independent legal review claimed |
 | Citation metadata | Final article metadata and DOI remain unset | Add CITATION.cff when the release identity is fixed |
 | AI disclosure | Proposed Acknowledgment text is in AI_ASSISTANCE.md | Confirm against the final article before submission |
-| Reviewer access | Public GitHub access is authorized | Test unauthenticated access after push |
+| Reviewer access | [Public GitHub repository](https://github.com/Kim-Junseok/6g-uplink-fast-recovery-sionna) | Anonymous repository access and the pushed `main` SHA verified |
 
 This candidate must not be described as a full SLS rerun. Its validation
 covers accepted-file integrity, reanalysis of retained raw records,
