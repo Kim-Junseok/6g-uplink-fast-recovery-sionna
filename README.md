@@ -1,4 +1,4 @@
-# Uplink Access and Recovery for 6G: Fast ARQ and HARQ-Preserving Scheduled Recovery
+# When Contention-Based Uplink Access Meets Fast Recovery in 6G
 
 This repository provides the simulation source, 136 accepted run records,
 analysis and figure-generation code, and the three result figures for the
