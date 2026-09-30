@@ -1,0 +1,114 @@
+{
+  "SHOW_TITLES": false,
+  "accepted_result_commits": {
+    "V0.5_rebaseline": "0f166dab87c3c73f9f2289fae1e3190802376cb0",
+    "V0.6_F3_report": "d95059612ffbbf86d6c5e9e78f0b508fedb42079",
+    "V0.7_final_report": "ca5107b371842ad87b84c91f1fe3e9f1214d6818",
+    "V0.7_implementation_freeze": "39120e373e8e53e6153e5e8fa69bed510e5fc53c",
+    "V0.7_raw_results": "c90d1013a7e6e9192ea931bf66b3a6f6a25b1312"
+  },
+  "aggregation": "arithmetic mean of eight accepted seed-level estimates",
+  "artifact": "fig5a_high_load_packet_delivery_vs_latency",
+  "caveat": "The y-axis is truncated at 0.55 and explicitly ticked; failure mass remains in the packet delivery denominator.",
+  "colors": {
+    "B": "#D62728",
+    "F3": "#CC0099",
+    "H3": "#0072B2",
+    "Legacy-20": "#666666"
+  },
+  "data_source_files": [
+    {
+      "path": "results/v0_5_rebaseline/v0_5_1_completion_source.csv",
+      "sha256": "a0fb212b693ed4e0c9bd5af2e64566ca78deceee482a157a02071c57c79bdf0a"
+    },
+    {
+      "path": "results/v0_6_f3/completion_curve_source.csv",
+      "sha256": "d6ea6e969bbc5d38d3408f66e524899d9f3e5b793185d1b5fc8467798473a460"
+    }
+  ],
+  "exports": [
+    "fig5a_high_load_packet_delivery_vs_latency.pdf",
+    "fig5a_high_load_packet_delivery_vs_latency.svg",
+    "fig5a_high_load_packet_delivery_vs_latency.png"
+  ],
+  "figure_dimensions_inches": [
+    3.35,
+    2.45
+  ],
+  "generation_command": "MPLCONFIGDIR=/tmp/mpl-commmag PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=src <historical-python> scripts/paper_figures/build_all.py",
+  "hatch_line_width_pt": 0.45,
+  "line_width_pt": 1.5,
+  "linestyles": {
+    "B": "-",
+    "F3": ":",
+    "H3": [
+      0,
+      [
+        5,
+        1,
+        1,
+        1
+      ]
+    ],
+    "Legacy-20": "--"
+  },
+  "loads": [
+    0.9
+  ],
+  "main_figure_uncertainty": "omitted; accepted paired-seed analysis remains authoritative",
+  "manuscript_role": "What does the selected recovery design do at high load?",
+  "marker_size_pt": 4.5,
+  "markers": {
+    "B": "D",
+    "F3": "v",
+    "H3": "^",
+    "Legacy-20": "o"
+  },
+  "metric_definitions": {
+    "packet_delivery_probability": "Fraction of all measured packets that were successfully delivered by the latency threshold; delivery failures remain in the denominator.",
+    "packet_latency_slots": "End-to-end packet latency in slots."
+  },
+  "scheme_styles": {
+    "B": {
+      "color": "#D62728",
+      "label": "B",
+      "linestyle": "-",
+      "marker": "D"
+    },
+    "F3": {
+      "color": "#CC0099",
+      "label": "F3",
+      "linestyle": ":",
+      "marker": "v"
+    },
+    "H3": {
+      "color": "#0072B2",
+      "label": "H3",
+      "linestyle": [
+        0,
+        [
+          5,
+          1,
+          1,
+          1
+        ]
+      ],
+      "marker": "^"
+    },
+    "Legacy-20": {
+      "color": "#666666",
+      "label": "Legacy-20",
+      "linestyle": "--",
+      "marker": "o"
+    }
+  },
+  "schemes": [
+    "Legacy-20",
+    "B",
+    "H3",
+    "F3"
+  ],
+  "selected_font": "STIXGeneral",
+  "source_data_csv": "fig5a_high_load_packet_delivery_vs_latency_source.csv",
+  "spine_width_pt": 0.8
+}

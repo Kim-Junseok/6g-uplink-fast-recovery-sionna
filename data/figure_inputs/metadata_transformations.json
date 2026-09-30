@@ -1,0 +1,38 @@
+{
+  "classification": "PUBLIC-FIGURE-METADATA-SANITIZATION",
+  "records": [
+    {
+      "original_sha256": "0dc847f689b4a19c25f11e3cd9fe703ebeee741692d0fcac0fe970b0b087d829",
+      "path": "data/figure_inputs/high_load_baselines/analysis_manifest.json",
+      "public_sha256": "d15c20368d595648c4fde63b10485f049030c814d7eae153912e4315c9c6b793",
+      "scientific_fields_unchanged": true,
+      "transformation": "replace historical private Python executable with <historical-python>",
+      "transformed_field": "generation_command"
+    },
+    {
+      "original_sha256": "dd1952ce5c88edf839b51b768cf5b30244f912df85f117440c4bc024f2f0ca0c",
+      "path": "data/figure_inputs/accepted_figure_sources/fig3a_recovery_domain_tail_metadata.json",
+      "public_sha256": "c5c4fbc8f4401d186d8225abfb1ddff9bbb27d825892b744fec26d554ec212e9",
+      "scientific_fields_unchanged": true,
+      "transformation": "replace historical private Python executable with <historical-python>",
+      "transformed_field": "generation_command"
+    },
+    {
+      "original_sha256": "a70d4168cc7149f3cd0f81972d227ab7c02eccc0245671264145a2cdda35d308",
+      "path": "data/figure_inputs/accepted_figure_sources/fig4a_delay_scheduled_recovery_admission_metadata.json",
+      "public_sha256": "b62cafc3095feaccdb427d1a33dc4d34d205dae74dea2c42f4dfa935dcf86595",
+      "scientific_fields_unchanged": true,
+      "transformation": "replace historical private Python executable with <historical-python>",
+      "transformed_field": "generation_command"
+    },
+    {
+      "original_sha256": "e583a5cd5fd373612492049df03f72b1e6cda325bfab492641aa0bf1d9456aa7",
+      "path": "data/figure_inputs/accepted_figure_sources/fig5a_high_load_packet_delivery_vs_latency_metadata.json",
+      "public_sha256": "5427cea83019bf0ab78d394af82b11b27cf6a39e0ae85cecef9ee57fdf102ea4",
+      "scientific_fields_unchanged": true,
+      "transformation": "replace historical private Python executable with <historical-python>",
+      "transformed_field": "generation_command"
+    }
+  ],
+  "scope": "Four JSON metadata/manifest files only; accepted figure source CSVs and aggregate CSVs are byte-identical."
+}

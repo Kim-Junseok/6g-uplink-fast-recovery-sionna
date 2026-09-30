@@ -1,0 +1,1686 @@
+{
+  "latency_slots": {
+    "conditional_delivered_ecdf": [
+      {
+        "latency_slots": 1,
+        "probability": 0.005555555555555556
+      },
+      {
+        "latency_slots": 1,
+        "probability": 0.011111111111111112
+      },
+      {
+        "latency_slots": 1,
+        "probability": 0.016666666666666666
+      },
+      {
+        "latency_slots": 1,
+        "probability": 0.022222222222222223
+      },
+      {
+        "latency_slots": 3,
+        "probability": 0.027777777777777776
+      },
+      {
+        "latency_slots": 3,
+        "probability": 0.03333333333333333
+      },
+      {
+        "latency_slots": 3,
+        "probability": 0.03888888888888889
+      },
+      {
+        "latency_slots": 3,
+        "probability": 0.044444444444444446
+      },
+      {
+        "latency_slots": 3,
+        "probability": 0.05
+      },
+      {
+        "latency_slots": 3,
+        "probability": 0.05555555555555555
+      },
+      {
+        "latency_slots": 3,
+        "probability": 0.06111111111111111
+      },
+      {
+        "latency_slots": 3,
+        "probability": 0.06666666666666667
+      },
+      {
+        "latency_slots": 5,
+        "probability": 0.07222222222222222
+      },
+      {
+        "latency_slots": 5,
+        "probability": 0.07777777777777778
+      },
+      {
+        "latency_slots": 5,
+        "probability": 0.08333333333333333
+      },
+      {
+        "latency_slots": 5,
+        "probability": 0.08888888888888889
+      },
+      {
+        "latency_slots": 5,
+        "probability": 0.09444444444444444
+      },
+      {
+        "latency_slots": 5,
+        "probability": 0.1
+      },
+      {
+        "latency_slots": 5,
+        "probability": 0.10555555555555556
+      },
+      {
+        "latency_slots": 5,
+        "probability": 0.1111111111111111
+      },
+      {
+        "latency_slots": 5,
+        "probability": 0.11666666666666667
+      },
+      {
+        "latency_slots": 5,
+        "probability": 0.12222222222222222
+      },
+      {
+        "latency_slots": 5,
+        "probability": 0.12777777777777777
+      },
+      {
+        "latency_slots": 5,
+        "probability": 0.13333333333333333
+      },
+      {
+        "latency_slots": 5,
+        "probability": 0.1388888888888889
+      },
+      {
+        "latency_slots": 5,
+        "probability": 0.14444444444444443
+      },
+      {
+        "latency_slots": 5,
+        "probability": 0.15
+      },
+      {
+        "latency_slots": 7,
+        "probability": 0.15555555555555556
+      },
+      {
+        "latency_slots": 7,
+        "probability": 0.16111111111111112
+      },
+      {
+        "latency_slots": 7,
+        "probability": 0.16666666666666666
+      },
+      {
+        "latency_slots": 7,
+        "probability": 0.17222222222222222
+      },
+      {
+        "latency_slots": 7,
+        "probability": 0.17777777777777778
+      },
+      {
+        "latency_slots": 7,
+        "probability": 0.18333333333333332
+      },
+      {
+        "latency_slots": 7,
+        "probability": 0.18888888888888888
+      },
+      {
+        "latency_slots": 7,
+        "probability": 0.19444444444444445
+      },
+      {
+        "latency_slots": 7,
+        "probability": 0.2
+      },
+      {
+        "latency_slots": 7,
+        "probability": 0.20555555555555555
+      },
+      {
+        "latency_slots": 7,
+        "probability": 0.2111111111111111
+      },
+      {
+        "latency_slots": 7,
+        "probability": 0.21666666666666667
+      },
+      {
+        "latency_slots": 7,
+        "probability": 0.2222222222222222
+      },
+      {
+        "latency_slots": 7,
+        "probability": 0.22777777777777777
+      },
+      {
+        "latency_slots": 7,
+        "probability": 0.23333333333333334
+      },
+      {
+        "latency_slots": 7,
+        "probability": 0.2388888888888889
+      },
+      {
+        "latency_slots": 7,
+        "probability": 0.24444444444444444
+      },
+      {
+        "latency_slots": 7,
+        "probability": 0.25
+      },
+      {
+        "latency_slots": 7,
+        "probability": 0.25555555555555554
+      },
+      {
+        "latency_slots": 7,
+        "probability": 0.2611111111111111
+      },
+      {
+        "latency_slots": 7,
+        "probability": 0.26666666666666666
+      },
+      {
+        "latency_slots": 7,
+        "probability": 0.2722222222222222
+      },
+      {
+        "latency_slots": 7,
+        "probability": 0.2777777777777778
+      },
+      {
+        "latency_slots": 7,
+        "probability": 0.2833333333333333
+      },
+      {
+        "latency_slots": 7,
+        "probability": 0.28888888888888886
+      },
+      {
+        "latency_slots": 7,
+        "probability": 0.29444444444444445
+      },
+      {
+        "latency_slots": 7,
+        "probability": 0.3
+      },
+      {
+        "latency_slots": 7,
+        "probability": 0.3055555555555556
+      },
+      {
+        "latency_slots": 7,
+        "probability": 0.3111111111111111
+      },
+      {
+        "latency_slots": 7,
+        "probability": 0.31666666666666665
+      },
+      {
+        "latency_slots": 7,
+        "probability": 0.32222222222222224
+      },
+      {
+        "latency_slots": 7,
+        "probability": 0.3277777777777778
+      },
+      {
+        "latency_slots": 7,
+        "probability": 0.3333333333333333
+      },
+      {
+        "latency_slots": 7,
+        "probability": 0.3388888888888889
+      },
+      {
+        "latency_slots": 7,
+        "probability": 0.34444444444444444
+      },
+      {
+        "latency_slots": 7,
+        "probability": 0.35
+      },
+      {
+        "latency_slots": 7,
+        "probability": 0.35555555555555557
+      },
+      {
+        "latency_slots": 11,
+        "probability": 0.3611111111111111
+      },
+      {
+        "latency_slots": 12,
+        "probability": 0.36666666666666664
+      },
+      {
+        "latency_slots": 12,
+        "probability": 0.37222222222222223
+      },
+      {
+        "latency_slots": 13,
+        "probability": 0.37777777777777777
+      },
+      {
+        "latency_slots": 13,
+        "probability": 0.38333333333333336
+      },
+      {
+        "latency_slots": 14,
+        "probability": 0.3888888888888889
+      },
+      {
+        "latency_slots": 14,
+        "probability": 0.39444444444444443
+      },
+      {
+        "latency_slots": 14,
+        "probability": 0.4
+      },
+      {
+        "latency_slots": 14,
+        "probability": 0.40555555555555556
+      },
+      {
+        "latency_slots": 15,
+        "probability": 0.4111111111111111
+      },
+      {
+        "latency_slots": 15,
+        "probability": 0.4166666666666667
+      },
+      {
+        "latency_slots": 16,
+        "probability": 0.4222222222222222
+      },
+      {
+        "latency_slots": 16,
+        "probability": 0.42777777777777776
+      },
+      {
+        "latency_slots": 17,
+        "probability": 0.43333333333333335
+      },
+      {
+        "latency_slots": 17,
+        "probability": 0.4388888888888889
+      },
+      {
+        "latency_slots": 18,
+        "probability": 0.4444444444444444
+      },
+      {
+        "latency_slots": 18,
+        "probability": 0.45
+      },
+      {
+        "latency_slots": 18,
+        "probability": 0.45555555555555555
+      },
+      {
+        "latency_slots": 20,
+        "probability": 0.46111111111111114
+      },
+      {
+        "latency_slots": 22,
+        "probability": 0.4666666666666667
+      },
+      {
+        "latency_slots": 23,
+        "probability": 0.4722222222222222
+      },
+      {
+        "latency_slots": 26,
+        "probability": 0.4777777777777778
+      },
+      {
+        "latency_slots": 26,
+        "probability": 0.48333333333333334
+      },
+      {
+        "latency_slots": 27,
+        "probability": 0.4888888888888889
+      },
+      {
+        "latency_slots": 32,
+        "probability": 0.49444444444444446
+      },
+      {
+        "latency_slots": 35,
+        "probability": 0.5
+      },
+      {
+        "latency_slots": 37,
+        "probability": 0.5055555555555555
+      },
+      {
+        "latency_slots": 41,
+        "probability": 0.5111111111111111
+      },
+      {
+        "latency_slots": 42,
+        "probability": 0.5166666666666667
+      },
+      {
+        "latency_slots": 42,
+        "probability": 0.5222222222222223
+      },
+      {
+        "latency_slots": 44,
+        "probability": 0.5277777777777778
+      },
+      {
+        "latency_slots": 47,
+        "probability": 0.5333333333333333
+      },
+      {
+        "latency_slots": 47,
+        "probability": 0.5388888888888889
+      },
+      {
+        "latency_slots": 48,
+        "probability": 0.5444444444444444
+      },
+      {
+        "latency_slots": 49,
+        "probability": 0.55
+      },
+      {
+        "latency_slots": 51,
+        "probability": 0.5555555555555556
+      },
+      {
+        "latency_slots": 51,
+        "probability": 0.5611111111111111
+      },
+      {
+        "latency_slots": 52,
+        "probability": 0.5666666666666667
+      },
+      {
+        "latency_slots": 52,
+        "probability": 0.5722222222222222
+      },
+      {
+        "latency_slots": 53,
+        "probability": 0.5777777777777777
+      },
+      {
+        "latency_slots": 54,
+        "probability": 0.5833333333333334
+      },
+      {
+        "latency_slots": 55,
+        "probability": 0.5888888888888889
+      },
+      {
+        "latency_slots": 56,
+        "probability": 0.5944444444444444
+      },
+      {
+        "latency_slots": 56,
+        "probability": 0.6
+      },
+      {
+        "latency_slots": 57,
+        "probability": 0.6055555555555555
+      },
+      {
+        "latency_slots": 57,
+        "probability": 0.6111111111111112
+      },
+      {
+        "latency_slots": 58,
+        "probability": 0.6166666666666667
+      },
+      {
+        "latency_slots": 58,
+        "probability": 0.6222222222222222
+      },
+      {
+        "latency_slots": 59,
+        "probability": 0.6277777777777778
+      },
+      {
+        "latency_slots": 59,
+        "probability": 0.6333333333333333
+      },
+      {
+        "latency_slots": 60,
+        "probability": 0.6388888888888888
+      },
+      {
+        "latency_slots": 60,
+        "probability": 0.6444444444444445
+      },
+      {
+        "latency_slots": 60,
+        "probability": 0.65
+      },
+      {
+        "latency_slots": 60,
+        "probability": 0.6555555555555556
+      },
+      {
+        "latency_slots": 60,
+        "probability": 0.6611111111111111
+      },
+      {
+        "latency_slots": 60,
+        "probability": 0.6666666666666666
+      },
+      {
+        "latency_slots": 61,
+        "probability": 0.6722222222222223
+      },
+      {
+        "latency_slots": 61,
+        "probability": 0.6777777777777778
+      },
+      {
+        "latency_slots": 61,
+        "probability": 0.6833333333333333
+      },
+      {
+        "latency_slots": 61,
+        "probability": 0.6888888888888889
+      },
+      {
+        "latency_slots": 61,
+        "probability": 0.6944444444444444
+      },
+      {
+        "latency_slots": 61,
+        "probability": 0.7
+      },
+      {
+        "latency_slots": 61,
+        "probability": 0.7055555555555556
+      },
+      {
+        "latency_slots": 62,
+        "probability": 0.7111111111111111
+      },
+      {
+        "latency_slots": 62,
+        "probability": 0.7166666666666667
+      },
+      {
+        "latency_slots": 62,
+        "probability": 0.7222222222222222
+      },
+      {
+        "latency_slots": 63,
+        "probability": 0.7277777777777777
+      },
+      {
+        "latency_slots": 63,
+        "probability": 0.7333333333333333
+      },
+      {
+        "latency_slots": 63,
+        "probability": 0.7388888888888889
+      },
+      {
+        "latency_slots": 63,
+        "probability": 0.7444444444444445
+      },
+      {
+        "latency_slots": 63,
+        "probability": 0.75
+      },
+      {
+        "latency_slots": 63,
+        "probability": 0.7555555555555555
+      },
+      {
+        "latency_slots": 63,
+        "probability": 0.7611111111111111
+      },
+      {
+        "latency_slots": 63,
+        "probability": 0.7666666666666667
+      },
+      {
+        "latency_slots": 63,
+        "probability": 0.7722222222222223
+      },
+      {
+        "latency_slots": 64,
+        "probability": 0.7777777777777778
+      },
+      {
+        "latency_slots": 64,
+        "probability": 0.7833333333333333
+      },
+      {
+        "latency_slots": 64,
+        "probability": 0.7888888888888889
+      },
+      {
+        "latency_slots": 64,
+        "probability": 0.7944444444444444
+      },
+      {
+        "latency_slots": 64,
+        "probability": 0.8
+      },
+      {
+        "latency_slots": 64,
+        "probability": 0.8055555555555556
+      },
+      {
+        "latency_slots": 64,
+        "probability": 0.8111111111111111
+      },
+      {
+        "latency_slots": 65,
+        "probability": 0.8166666666666667
+      },
+      {
+        "latency_slots": 65,
+        "probability": 0.8222222222222222
+      },
+      {
+        "latency_slots": 65,
+        "probability": 0.8277777777777777
+      },
+      {
+        "latency_slots": 65,
+        "probability": 0.8333333333333334
+      },
+      {
+        "latency_slots": 66,
+        "probability": 0.8388888888888889
+      },
+      {
+        "latency_slots": 66,
+        "probability": 0.8444444444444444
+      },
+      {
+        "latency_slots": 66,
+        "probability": 0.85
+      },
+      {
+        "latency_slots": 66,
+        "probability": 0.8555555555555555
+      },
+      {
+        "latency_slots": 66,
+        "probability": 0.8611111111111112
+      },
+      {
+        "latency_slots": 66,
+        "probability": 0.8666666666666667
+      },
+      {
+        "latency_slots": 66,
+        "probability": 0.8722222222222222
+      },
+      {
+        "latency_slots": 67,
+        "probability": 0.8777777777777778
+      },
+      {
+        "latency_slots": 67,
+        "probability": 0.8833333333333333
+      },
+      {
+        "latency_slots": 67,
+        "probability": 0.8888888888888888
+      },
+      {
+        "latency_slots": 67,
+        "probability": 0.8944444444444445
+      },
+      {
+        "latency_slots": 68,
+        "probability": 0.9
+      },
+      {
+        "latency_slots": 69,
+        "probability": 0.9055555555555556
+      },
+      {
+        "latency_slots": 69,
+        "probability": 0.9111111111111111
+      },
+      {
+        "latency_slots": 69,
+        "probability": 0.9166666666666666
+      },
+      {
+        "latency_slots": 69,
+        "probability": 0.9222222222222223
+      },
+      {
+        "latency_slots": 78,
+        "probability": 0.9277777777777778
+      },
+      {
+        "latency_slots": 81,
+        "probability": 0.9333333333333333
+      },
+      {
+        "latency_slots": 88,
+        "probability": 0.9388888888888889
+      },
+      {
+        "latency_slots": 92,
+        "probability": 0.9444444444444444
+      },
+      {
+        "latency_slots": 93,
+        "probability": 0.95
+      },
+      {
+        "latency_slots": 100,
+        "probability": 0.9555555555555556
+      },
+      {
+        "latency_slots": 108,
+        "probability": 0.9611111111111111
+      },
+      {
+        "latency_slots": 112,
+        "probability": 0.9666666666666667
+      },
+      {
+        "latency_slots": 114,
+        "probability": 0.9722222222222222
+      },
+      {
+        "latency_slots": 119,
+        "probability": 0.9777777777777777
+      },
+      {
+        "latency_slots": 128,
+        "probability": 0.9833333333333333
+      },
+      {
+        "latency_slots": 132,
+        "probability": 0.9888888888888889
+      },
+      {
+        "latency_slots": 163,
+        "probability": 0.9944444444444445
+      },
+      {
+        "latency_slots": 164,
+        "probability": 1.0
+      }
+    ],
+    "delivery_aware_completion_curve": [
+      {
+        "latency_slots": 1,
+        "probability_of_measured_arrival": 0.0004
+      },
+      {
+        "latency_slots": 1,
+        "probability_of_measured_arrival": 0.0008
+      },
+      {
+        "latency_slots": 1,
+        "probability_of_measured_arrival": 0.0012
+      },
+      {
+        "latency_slots": 1,
+        "probability_of_measured_arrival": 0.0016
+      },
+      {
+        "latency_slots": 3,
+        "probability_of_measured_arrival": 0.002
+      },
+      {
+        "latency_slots": 3,
+        "probability_of_measured_arrival": 0.0024
+      },
+      {
+        "latency_slots": 3,
+        "probability_of_measured_arrival": 0.0028
+      },
+      {
+        "latency_slots": 3,
+        "probability_of_measured_arrival": 0.0032
+      },
+      {
+        "latency_slots": 3,
+        "probability_of_measured_arrival": 0.0036
+      },
+      {
+        "latency_slots": 3,
+        "probability_of_measured_arrival": 0.004
+      },
+      {
+        "latency_slots": 3,
+        "probability_of_measured_arrival": 0.0044
+      },
+      {
+        "latency_slots": 3,
+        "probability_of_measured_arrival": 0.0048
+      },
+      {
+        "latency_slots": 5,
+        "probability_of_measured_arrival": 0.0052
+      },
+      {
+        "latency_slots": 5,
+        "probability_of_measured_arrival": 0.0056
+      },
+      {
+        "latency_slots": 5,
+        "probability_of_measured_arrival": 0.006
+      },
+      {
+        "latency_slots": 5,
+        "probability_of_measured_arrival": 0.0064
+      },
+      {
+        "latency_slots": 5,
+        "probability_of_measured_arrival": 0.0068
+      },
+      {
+        "latency_slots": 5,
+        "probability_of_measured_arrival": 0.0072
+      },
+      {
+        "latency_slots": 5,
+        "probability_of_measured_arrival": 0.0076
+      },
+      {
+        "latency_slots": 5,
+        "probability_of_measured_arrival": 0.008
+      },
+      {
+        "latency_slots": 5,
+        "probability_of_measured_arrival": 0.0084
+      },
+      {
+        "latency_slots": 5,
+        "probability_of_measured_arrival": 0.0088
+      },
+      {
+        "latency_slots": 5,
+        "probability_of_measured_arrival": 0.0092
+      },
+      {
+        "latency_slots": 5,
+        "probability_of_measured_arrival": 0.0096
+      },
+      {
+        "latency_slots": 5,
+        "probability_of_measured_arrival": 0.01
+      },
+      {
+        "latency_slots": 5,
+        "probability_of_measured_arrival": 0.0104
+      },
+      {
+        "latency_slots": 5,
+        "probability_of_measured_arrival": 0.0108
+      },
+      {
+        "latency_slots": 7,
+        "probability_of_measured_arrival": 0.0112
+      },
+      {
+        "latency_slots": 7,
+        "probability_of_measured_arrival": 0.0116
+      },
+      {
+        "latency_slots": 7,
+        "probability_of_measured_arrival": 0.012
+      },
+      {
+        "latency_slots": 7,
+        "probability_of_measured_arrival": 0.0124
+      },
+      {
+        "latency_slots": 7,
+        "probability_of_measured_arrival": 0.0128
+      },
+      {
+        "latency_slots": 7,
+        "probability_of_measured_arrival": 0.0132
+      },
+      {
+        "latency_slots": 7,
+        "probability_of_measured_arrival": 0.0136
+      },
+      {
+        "latency_slots": 7,
+        "probability_of_measured_arrival": 0.014
+      },
+      {
+        "latency_slots": 7,
+        "probability_of_measured_arrival": 0.0144
+      },
+      {
+        "latency_slots": 7,
+        "probability_of_measured_arrival": 0.0148
+      },
+      {
+        "latency_slots": 7,
+        "probability_of_measured_arrival": 0.0152
+      },
+      {
+        "latency_slots": 7,
+        "probability_of_measured_arrival": 0.0156
+      },
+      {
+        "latency_slots": 7,
+        "probability_of_measured_arrival": 0.016
+      },
+      {
+        "latency_slots": 7,
+        "probability_of_measured_arrival": 0.0164
+      },
+      {
+        "latency_slots": 7,
+        "probability_of_measured_arrival": 0.0168
+      },
+      {
+        "latency_slots": 7,
+        "probability_of_measured_arrival": 0.0172
+      },
+      {
+        "latency_slots": 7,
+        "probability_of_measured_arrival": 0.0176
+      },
+      {
+        "latency_slots": 7,
+        "probability_of_measured_arrival": 0.018
+      },
+      {
+        "latency_slots": 7,
+        "probability_of_measured_arrival": 0.0184
+      },
+      {
+        "latency_slots": 7,
+        "probability_of_measured_arrival": 0.0188
+      },
+      {
+        "latency_slots": 7,
+        "probability_of_measured_arrival": 0.0192
+      },
+      {
+        "latency_slots": 7,
+        "probability_of_measured_arrival": 0.0196
+      },
+      {
+        "latency_slots": 7,
+        "probability_of_measured_arrival": 0.02
+      },
+      {
+        "latency_slots": 7,
+        "probability_of_measured_arrival": 0.0204
+      },
+      {
+        "latency_slots": 7,
+        "probability_of_measured_arrival": 0.0208
+      },
+      {
+        "latency_slots": 7,
+        "probability_of_measured_arrival": 0.0212
+      },
+      {
+        "latency_slots": 7,
+        "probability_of_measured_arrival": 0.0216
+      },
+      {
+        "latency_slots": 7,
+        "probability_of_measured_arrival": 0.022
+      },
+      {
+        "latency_slots": 7,
+        "probability_of_measured_arrival": 0.0224
+      },
+      {
+        "latency_slots": 7,
+        "probability_of_measured_arrival": 0.0228
+      },
+      {
+        "latency_slots": 7,
+        "probability_of_measured_arrival": 0.0232
+      },
+      {
+        "latency_slots": 7,
+        "probability_of_measured_arrival": 0.0236
+      },
+      {
+        "latency_slots": 7,
+        "probability_of_measured_arrival": 0.024
+      },
+      {
+        "latency_slots": 7,
+        "probability_of_measured_arrival": 0.0244
+      },
+      {
+        "latency_slots": 7,
+        "probability_of_measured_arrival": 0.0248
+      },
+      {
+        "latency_slots": 7,
+        "probability_of_measured_arrival": 0.0252
+      },
+      {
+        "latency_slots": 7,
+        "probability_of_measured_arrival": 0.0256
+      },
+      {
+        "latency_slots": 11,
+        "probability_of_measured_arrival": 0.026
+      },
+      {
+        "latency_slots": 12,
+        "probability_of_measured_arrival": 0.0264
+      },
+      {
+        "latency_slots": 12,
+        "probability_of_measured_arrival": 0.0268
+      },
+      {
+        "latency_slots": 13,
+        "probability_of_measured_arrival": 0.0272
+      },
+      {
+        "latency_slots": 13,
+        "probability_of_measured_arrival": 0.0276
+      },
+      {
+        "latency_slots": 14,
+        "probability_of_measured_arrival": 0.028
+      },
+      {
+        "latency_slots": 14,
+        "probability_of_measured_arrival": 0.0284
+      },
+      {
+        "latency_slots": 14,
+        "probability_of_measured_arrival": 0.0288
+      },
+      {
+        "latency_slots": 14,
+        "probability_of_measured_arrival": 0.0292
+      },
+      {
+        "latency_slots": 15,
+        "probability_of_measured_arrival": 0.0296
+      },
+      {
+        "latency_slots": 15,
+        "probability_of_measured_arrival": 0.03
+      },
+      {
+        "latency_slots": 16,
+        "probability_of_measured_arrival": 0.0304
+      },
+      {
+        "latency_slots": 16,
+        "probability_of_measured_arrival": 0.0308
+      },
+      {
+        "latency_slots": 17,
+        "probability_of_measured_arrival": 0.0312
+      },
+      {
+        "latency_slots": 17,
+        "probability_of_measured_arrival": 0.0316
+      },
+      {
+        "latency_slots": 18,
+        "probability_of_measured_arrival": 0.032
+      },
+      {
+        "latency_slots": 18,
+        "probability_of_measured_arrival": 0.0324
+      },
+      {
+        "latency_slots": 18,
+        "probability_of_measured_arrival": 0.0328
+      },
+      {
+        "latency_slots": 20,
+        "probability_of_measured_arrival": 0.0332
+      },
+      {
+        "latency_slots": 22,
+        "probability_of_measured_arrival": 0.0336
+      },
+      {
+        "latency_slots": 23,
+        "probability_of_measured_arrival": 0.034
+      },
+      {
+        "latency_slots": 26,
+        "probability_of_measured_arrival": 0.0344
+      },
+      {
+        "latency_slots": 26,
+        "probability_of_measured_arrival": 0.0348
+      },
+      {
+        "latency_slots": 27,
+        "probability_of_measured_arrival": 0.0352
+      },
+      {
+        "latency_slots": 32,
+        "probability_of_measured_arrival": 0.0356
+      },
+      {
+        "latency_slots": 35,
+        "probability_of_measured_arrival": 0.036
+      },
+      {
+        "latency_slots": 37,
+        "probability_of_measured_arrival": 0.0364
+      },
+      {
+        "latency_slots": 41,
+        "probability_of_measured_arrival": 0.0368
+      },
+      {
+        "latency_slots": 42,
+        "probability_of_measured_arrival": 0.0372
+      },
+      {
+        "latency_slots": 42,
+        "probability_of_measured_arrival": 0.0376
+      },
+      {
+        "latency_slots": 44,
+        "probability_of_measured_arrival": 0.038
+      },
+      {
+        "latency_slots": 47,
+        "probability_of_measured_arrival": 0.0384
+      },
+      {
+        "latency_slots": 47,
+        "probability_of_measured_arrival": 0.0388
+      },
+      {
+        "latency_slots": 48,
+        "probability_of_measured_arrival": 0.0392
+      },
+      {
+        "latency_slots": 49,
+        "probability_of_measured_arrival": 0.0396
+      },
+      {
+        "latency_slots": 51,
+        "probability_of_measured_arrival": 0.04
+      },
+      {
+        "latency_slots": 51,
+        "probability_of_measured_arrival": 0.0404
+      },
+      {
+        "latency_slots": 52,
+        "probability_of_measured_arrival": 0.0408
+      },
+      {
+        "latency_slots": 52,
+        "probability_of_measured_arrival": 0.0412
+      },
+      {
+        "latency_slots": 53,
+        "probability_of_measured_arrival": 0.0416
+      },
+      {
+        "latency_slots": 54,
+        "probability_of_measured_arrival": 0.042
+      },
+      {
+        "latency_slots": 55,
+        "probability_of_measured_arrival": 0.0424
+      },
+      {
+        "latency_slots": 56,
+        "probability_of_measured_arrival": 0.0428
+      },
+      {
+        "latency_slots": 56,
+        "probability_of_measured_arrival": 0.0432
+      },
+      {
+        "latency_slots": 57,
+        "probability_of_measured_arrival": 0.0436
+      },
+      {
+        "latency_slots": 57,
+        "probability_of_measured_arrival": 0.044
+      },
+      {
+        "latency_slots": 58,
+        "probability_of_measured_arrival": 0.0444
+      },
+      {
+        "latency_slots": 58,
+        "probability_of_measured_arrival": 0.0448
+      },
+      {
+        "latency_slots": 59,
+        "probability_of_measured_arrival": 0.0452
+      },
+      {
+        "latency_slots": 59,
+        "probability_of_measured_arrival": 0.0456
+      },
+      {
+        "latency_slots": 60,
+        "probability_of_measured_arrival": 0.046
+      },
+      {
+        "latency_slots": 60,
+        "probability_of_measured_arrival": 0.0464
+      },
+      {
+        "latency_slots": 60,
+        "probability_of_measured_arrival": 0.0468
+      },
+      {
+        "latency_slots": 60,
+        "probability_of_measured_arrival": 0.0472
+      },
+      {
+        "latency_slots": 60,
+        "probability_of_measured_arrival": 0.0476
+      },
+      {
+        "latency_slots": 60,
+        "probability_of_measured_arrival": 0.048
+      },
+      {
+        "latency_slots": 61,
+        "probability_of_measured_arrival": 0.0484
+      },
+      {
+        "latency_slots": 61,
+        "probability_of_measured_arrival": 0.0488
+      },
+      {
+        "latency_slots": 61,
+        "probability_of_measured_arrival": 0.0492
+      },
+      {
+        "latency_slots": 61,
+        "probability_of_measured_arrival": 0.0496
+      },
+      {
+        "latency_slots": 61,
+        "probability_of_measured_arrival": 0.05
+      },
+      {
+        "latency_slots": 61,
+        "probability_of_measured_arrival": 0.0504
+      },
+      {
+        "latency_slots": 61,
+        "probability_of_measured_arrival": 0.0508
+      },
+      {
+        "latency_slots": 62,
+        "probability_of_measured_arrival": 0.0512
+      },
+      {
+        "latency_slots": 62,
+        "probability_of_measured_arrival": 0.0516
+      },
+      {
+        "latency_slots": 62,
+        "probability_of_measured_arrival": 0.052
+      },
+      {
+        "latency_slots": 63,
+        "probability_of_measured_arrival": 0.0524
+      },
+      {
+        "latency_slots": 63,
+        "probability_of_measured_arrival": 0.0528
+      },
+      {
+        "latency_slots": 63,
+        "probability_of_measured_arrival": 0.0532
+      },
+      {
+        "latency_slots": 63,
+        "probability_of_measured_arrival": 0.0536
+      },
+      {
+        "latency_slots": 63,
+        "probability_of_measured_arrival": 0.054
+      },
+      {
+        "latency_slots": 63,
+        "probability_of_measured_arrival": 0.0544
+      },
+      {
+        "latency_slots": 63,
+        "probability_of_measured_arrival": 0.0548
+      },
+      {
+        "latency_slots": 63,
+        "probability_of_measured_arrival": 0.0552
+      },
+      {
+        "latency_slots": 63,
+        "probability_of_measured_arrival": 0.0556
+      },
+      {
+        "latency_slots": 64,
+        "probability_of_measured_arrival": 0.056
+      },
+      {
+        "latency_slots": 64,
+        "probability_of_measured_arrival": 0.0564
+      },
+      {
+        "latency_slots": 64,
+        "probability_of_measured_arrival": 0.0568
+      },
+      {
+        "latency_slots": 64,
+        "probability_of_measured_arrival": 0.0572
+      },
+      {
+        "latency_slots": 64,
+        "probability_of_measured_arrival": 0.0576
+      },
+      {
+        "latency_slots": 64,
+        "probability_of_measured_arrival": 0.058
+      },
+      {
+        "latency_slots": 64,
+        "probability_of_measured_arrival": 0.0584
+      },
+      {
+        "latency_slots": 65,
+        "probability_of_measured_arrival": 0.0588
+      },
+      {
+        "latency_slots": 65,
+        "probability_of_measured_arrival": 0.0592
+      },
+      {
+        "latency_slots": 65,
+        "probability_of_measured_arrival": 0.0596
+      },
+      {
+        "latency_slots": 65,
+        "probability_of_measured_arrival": 0.06
+      },
+      {
+        "latency_slots": 66,
+        "probability_of_measured_arrival": 0.0604
+      },
+      {
+        "latency_slots": 66,
+        "probability_of_measured_arrival": 0.0608
+      },
+      {
+        "latency_slots": 66,
+        "probability_of_measured_arrival": 0.0612
+      },
+      {
+        "latency_slots": 66,
+        "probability_of_measured_arrival": 0.0616
+      },
+      {
+        "latency_slots": 66,
+        "probability_of_measured_arrival": 0.062
+      },
+      {
+        "latency_slots": 66,
+        "probability_of_measured_arrival": 0.0624
+      },
+      {
+        "latency_slots": 66,
+        "probability_of_measured_arrival": 0.0628
+      },
+      {
+        "latency_slots": 67,
+        "probability_of_measured_arrival": 0.0632
+      },
+      {
+        "latency_slots": 67,
+        "probability_of_measured_arrival": 0.0636
+      },
+      {
+        "latency_slots": 67,
+        "probability_of_measured_arrival": 0.064
+      },
+      {
+        "latency_slots": 67,
+        "probability_of_measured_arrival": 0.0644
+      },
+      {
+        "latency_slots": 68,
+        "probability_of_measured_arrival": 0.0648
+      },
+      {
+        "latency_slots": 69,
+        "probability_of_measured_arrival": 0.0652
+      },
+      {
+        "latency_slots": 69,
+        "probability_of_measured_arrival": 0.0656
+      },
+      {
+        "latency_slots": 69,
+        "probability_of_measured_arrival": 0.066
+      },
+      {
+        "latency_slots": 69,
+        "probability_of_measured_arrival": 0.0664
+      },
+      {
+        "latency_slots": 78,
+        "probability_of_measured_arrival": 0.0668
+      },
+      {
+        "latency_slots": 81,
+        "probability_of_measured_arrival": 0.0672
+      },
+      {
+        "latency_slots": 88,
+        "probability_of_measured_arrival": 0.0676
+      },
+      {
+        "latency_slots": 92,
+        "probability_of_measured_arrival": 0.068
+      },
+      {
+        "latency_slots": 93,
+        "probability_of_measured_arrival": 0.0684
+      },
+      {
+        "latency_slots": 100,
+        "probability_of_measured_arrival": 0.0688
+      },
+      {
+        "latency_slots": 108,
+        "probability_of_measured_arrival": 0.0692
+      },
+      {
+        "latency_slots": 112,
+        "probability_of_measured_arrival": 0.0696
+      },
+      {
+        "latency_slots": 114,
+        "probability_of_measured_arrival": 0.07
+      },
+      {
+        "latency_slots": 119,
+        "probability_of_measured_arrival": 0.0704
+      },
+      {
+        "latency_slots": 128,
+        "probability_of_measured_arrival": 0.0708
+      },
+      {
+        "latency_slots": 132,
+        "probability_of_measured_arrival": 0.0712
+      },
+      {
+        "latency_slots": 163,
+        "probability_of_measured_arrival": 0.0716
+      },
+      {
+        "latency_slots": 164,
+        "probability_of_measured_arrival": 0.072
+      }
+    ],
+    "mean": 38.66111111111111,
+    "median": 36.0,
+    "p95": 93.34999999999988,
+    "p99": 138.51000000000025
+  },
+  "legacy_timing": {
+    "cb_resource_wait_slots": {
+      "count": 0,
+      "maximum": null,
+      "mean": null,
+      "median": null,
+      "p95": null
+    },
+    "effective_final_harq_to_recovery_gap": {
+      "count": 0,
+      "maximum": null,
+      "mean": null,
+      "median": null,
+      "p95": null
+    },
+    "first_recovery_harq_duration_slots": {
+      "count": 0,
+      "maximum": null,
+      "mean": null,
+      "median": null,
+      "p95": null
+    },
+    "packets": 0,
+    "population": "measurement-cohort packets entering Legacy-CB recovery",
+    "timer_binding_fraction": null,
+    "timer_wait_slots": {
+      "count": 0,
+      "maximum": null,
+      "mean": null,
+      "median": null,
+      "p95": null
+    }
+  },
+  "oracle_reliability": {
+    "correct_deliveries": 180,
+    "correct_delivery_probability": 0.072,
+    "correct_plus_undetected_plus_drop": 1.0,
+    "protocol_drop_probability": 0.928,
+    "protocol_drops": 2320,
+    "receiver_acceptance_plus_drop": 1.0,
+    "receiver_acceptance_probability": 0.072,
+    "receiver_acceptances": 180,
+    "undetected_error_probability": 0.0,
+    "undetected_errors": 0
+  },
+  "packets": {
+    "delivered": 180,
+    "delivery_probability": 0.072,
+    "drop_probability": 0.928,
+    "dropped": 2320,
+    "generated_total": 3000,
+    "measured": 2500,
+    "unfinished_after_drain": 0,
+    "warmup": 500
+  },
+  "phy": {
+    "ack_nack_by_rv": {
+      "0": {
+        "acks": 9,
+        "attempts": 16922,
+        "conditional_success": 0.0005318520269471694,
+        "nacks": 16913
+      },
+      "1": {
+        "acks": 89,
+        "attempts": 16831,
+        "conditional_success": 0.005287861683797754,
+        "nacks": 16742
+      },
+      "2": {
+        "acks": 25,
+        "attempts": 16913,
+        "conditional_success": 0.00147815290013599,
+        "nacks": 16888
+      },
+      "3": {
+        "acks": 57,
+        "attempts": 16888,
+        "conditional_success": 0.00337517764092847,
+        "nacks": 16831
+      }
+    },
+    "attempts": 67554,
+    "attempts_per_delivered_packet": 375.3,
+    "final_harq_failure_events": 16742,
+    "final_harq_failure_payload_probability": 0.9728,
+    "fraction_cb_attempts_occupancy_ge_2": 0.9997927583858839,
+    "harq_episodes": 16922,
+    "undetected_error_events": []
+  },
+  "recovery": {
+    "abandoned_harq_episodes": 0,
+    "early_payload_requeues": 0,
+    "fraction_of_packets_rescued": 0.0,
+    "fresh_tb_rescue_grants": 0,
+    "fresh_tb_rescue_requests": 0,
+    "fresh_tb_rescue_successes": 0,
+    "fresh_tb_rescue_transmissions": 0,
+    "grants": 0,
+    "mode": "disabled",
+    "requests": 0,
+    "scheduled_harq_rescue_grants": 0,
+    "scheduled_harq_rescue_requests": 0,
+    "scheduled_harq_rescue_successes": 0,
+    "scheduled_harq_rescue_transmissions": 0,
+    "stale_feedback_discarded": 0,
+    "success_rate_per_rescue_transmission": null,
+    "successes": 0,
+    "transmissions": 0
+  },
+  "resources": {
+    "base_six_prb_use": 3110,
+    "cb_prb_slots": 3110,
+    "cb_prb_slots_per_delivered": 17.27777777777778,
+    "combined_physical_resource_use": 3110,
+    "dedicated_sb_resource_use": 0,
+    "fraction_slots_zero_cb_prbs": 0.0,
+    "pool_invariant_all_slots": true,
+    "scheduled_fraction_of_six_prb_budget": 0.0,
+    "scheduled_prb_slots": 0,
+    "scheduled_prb_slots_per_delivered": 0.0,
+    "total_prb_slots": 3110,
+    "total_prb_slots_per_delivered": 17.27777777777778
+  },
+  "rlc": {
+    "fraction_reaching_retransmission": {
+      "1": 0.9728,
+      "2": 0.966,
+      "3": 0.9628,
+      "4": 0.9608,
+      "5": 0.9568,
+      "6": 0.9496
+    },
+    "maximum_retransmission_episodes": 6,
+    "retransmission_count_histogram": {
+      "0": 68,
+      "1": 17,
+      "2": 8,
+      "3": 5,
+      "4": 10,
+      "5": 18,
+      "6": 2374
+    },
+    "terminal_failures_after_threshold": 2320
+  },
+  "runtime": {
+    "channel_lmmse_eesm_seconds": 264.73265635891585,
+    "direct_sionna_lls_seconds": 1843.0518730530348,
+    "peak_rss_kib": 2166344,
+    "phy_attempts": 69481,
+    "phy_attempts_per_second": 32.580314637973224,
+    "wall_seconds": 2132.6067833310008,
+    "worker_count": 1
+  },
+  "scheduled_queue": {
+    "first_service_wait_slots": {
+      "maximum": null,
+      "mean": null,
+      "p95": null
+    },
+    "fraction_slots_at_scheduled_service_capacity": 0.0,
+    "fraction_slots_with_scheduled_backlog": 0.0,
+    "population": "all recorded slots including terminal drain",
+    "queue_length": {
+      "maximum": 0,
+      "mean": 0.0,
+      "median": 0.0,
+      "p95": 0.0
+    },
+    "residual_cb_prb_counts": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 606
+    },
+    "residual_cb_prb_fractions": {
+      "0": 0.0,
+      "1": 0.0,
+      "2": 0.0,
+      "3": 0.0,
+      "4": 0.0,
+      "5": 0.0,
+      "6": 1.0
+    },
+    "scheduled_requests_per_slot": 0.0,
+    "scheduled_service_per_slot": 0.0
+  },
+  "test_d": {
+    "backoff_histogram_all_packets": {
+      "0": 3667,
+      "1": 3682,
+      "2": 3600,
+      "3": 3630
+    },
+    "forced_b_zero": false,
+    "reinjection_decisions_all_packets": 14579,
+    "reinjection_decisions_measured_packets": 14422
+  },
+  "traffic": {
+    "arrival_horizon_slots": 542,
+    "arrival_stop_time_slots": 541.9806308498586,
+    "measurement_start_time_slots": 82.6886603581987
+  },
+  "v0_5_legacy_timing": {
+    "episodes": 0,
+    "population": "RLC retransmission episodes",
+    "scheduled_queue_wait_slots": {
+      "maximum": null,
+      "mean": null,
+      "median": null,
+      "minimum": null,
+      "p95": null,
+      "samples": 0
+    },
+    "sr_to_scheduled_tx_slots": {
+      "maximum": null,
+      "mean": null,
+      "median": null,
+      "minimum": null,
+      "p95": null,
+      "samples": 0
+    },
+    "sr_wait_slots": {
+      "maximum": null,
+      "mean": null,
+      "median": null,
+      "minimum": null,
+      "p95": null,
+      "samples": 0
+    }
+  }
+}

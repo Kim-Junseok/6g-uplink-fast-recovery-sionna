@@ -1,0 +1,159 @@
+schema_version: 6
+milestone: V0.7-RHO070
+scope: rho=0.70 load robustness across accepted V0.5/V0.6 schemes
+phy:
+  information_bits: 160
+  tb_crc_bits: 16
+  ldpc_input_bits: 176
+  mcs_index: 10
+  mcs_table: 1
+  modulation: 16-QAM
+  modulation_order: 4
+  rv_sequence: [0, 2, 3, 1]
+  maximum_attempts: 4
+  decoder_iterations: 20
+  allocated_pusch_symbols: 11
+  prbs_per_attempt: 1
+  dmrs_config_type: 1
+  dmrs_symbols: [2]
+  dmrs_re_per_prb: 6
+  data_re: 126
+  coded_bits: 504
+  qam_symbols: 126
+resource_pool:
+  num_prbs: 6
+  subcarrier_spacing_hz: 15000.0
+  scheduled_priority: earliest_target_then_arrival_then_event_addressed_tie_break
+  cb_selection: event_addressed_uniform_over_available_prbs
+resource_policies:
+  shared_cap2:
+    identifier: shared_cap2
+    mode: shared
+    scheduled_capacity_prbs: 2
+    total_physical_prbs: 6
+    minimum_cb_prbs: 4
+channel:
+  operating_point: Medium
+  model: TDL-C
+  delay_spread_s: 3.0e-7
+  carrier_frequency_hz: 700000000.0
+  num_bs_receive_antennas: 2
+  num_ue_transmit_antennas: 1
+  noise_power_w: 1.0e-5
+  transmit_power_dbm: -8.0
+  csi: perfect
+  activity: known
+  receiver: joint_LMMSE
+  mobility_mps: 0.0
+  time_correlation: independent_slot_blocks
+  scheduled_rv0_tbler_acceptance: [0.40, 0.50]
+traffic:
+  model: independent_per_ue_poisson
+  num_ues: 3000
+  resource_capacity_attempts_per_slot: 6
+  rho_values: [0.70]
+  aggregate_arrival_rate_per_slot:
+    "0.70": 4.2
+  per_ue_arrival_rate_per_slot:
+    "0.70": 0.0014
+  per_ue_arrival_rate_per_second:
+    "0.70": 1.4
+stopping:
+  warmup_new_packets: 500
+  measured_new_packets: 2500
+  stop_arrivals_after_exact_packet_count: true
+  drain_to_terminal_state: true
+  hard_max_drain_slots: 100000
+recovery:
+  feedback_delay_slots: 1
+  harq_pusch_spacing_slots: 2
+  maximum_rlc_retransmissions: 6
+  cb_retry_backoff_slots: 0
+  legacy_poll_retransmit_slots: 20
+  fast_arq_delay_slots: 1
+  direct_scheduled_k2_slots: 1
+  legacy_sr_period_slots: 10
+  legacy_sr_phase_domain: v0.5-sr-phase
+  sr_control_processing_slots: 1
+  scheduled_pusch_k2_slots: 1
+rng:
+  contract: v0.4g-event-addressed-blake2s-v1
+  traffic_domain: v0.4g-p2-poisson
+  channel_domain: channel
+  lls_awgn_domain: lls_awgn
+  payload_domain: payload_bits
+  scheduler_tie_domain: scheduler_tie
+main_seeds: [9101, 9102, 9103, 9104, 9105, 9106, 9107, 9108]
+baseline_reuse:
+  v0_5:
+    config_path: configs/timing_rebaseline_v0_5.yaml
+    config_sha256: 23e70da2233671875735f91613709ebc57d803409b5ac7f646dae49c49e9a834
+    raw_root: results/raw_v0_5
+    results_sha: 0f166dab87c3c73f9f2289fae1e3190802376cb0
+  v0_6_k2:
+    config_path: configs/p3_bhf_v0_6.yaml
+    config_sha256: dfff30dc11d9a16468999533c7894f7303ab61dc35e623351a538c4314d824f7
+    raw_root: results/raw_v0_6_p3
+    implementation_sha: 799a08aafabaa24fcf153bb2cdebc3948a2a295a
+    report_sha: ec56afa5f726cb91c49b94982a2b3f2096903dfc
+  v0_6_h3:
+    config_path: configs/p3_hk3_v0_6.yaml
+    config_sha256: d94f904dd8e52c7cb3ae652f2582e7b21c494b4631b2c0eb2e87f6c31685767a
+    raw_root: results/raw_v0_6_k3
+    implementation_sha: 1c8a9203c7a4a5c642611c9363cb30e00e9cad86
+    results_sha: 4e1238c95de99d88c8205cbe128807b0321c24fb
+    report_sha: 5081d909861f9216aab77f31138556de156cd16f
+  v0_6_f3:
+    config_path: configs/p3_fk3_v0_6.yaml
+    config_sha256: 9c1cbc72f7f7b9f2b409d6551c6800aa2adc55d3b731b75501e67a08e1f16029
+    raw_root: results/raw_v0_6_f3
+    implementation_sha: d86d4c6378647b4ee7a929170c0f70b35795fcb0
+    results_sha: 4f27c43dbaf5ee1a3089a9284a71ffd9ebb8fcac
+    report_sha: d95059612ffbbf86d6c5e9e78f0b508fedb42079
+scenarios:
+  V0_7_RHO070_LEGACY_RLC_SB_T20:
+    scheme: Legacy-RLC/SB
+    rho: 0.70
+    legacy_poll_retransmit_slots: 20
+    resource_policy: shared_cap2
+  V0_7_RHO070_LEGACY_RLC_SB_T15:
+    scheme: Legacy-RLC/SB
+    rho: 0.70
+    legacy_poll_retransmit_slots: 15
+    resource_policy: shared_cap2
+  V0_7_RHO070_FAST_CB:
+    scheme: Fast-CB
+    rho: 0.70
+    resource_policy: shared_cap2
+  V0_7_RHO070_FAST_SB:
+    scheme: B/Fast-SB
+    rho: 0.70
+    resource_policy: shared_cap2
+  V0_7_RHO070_H2_HARQ_PRESERVING_SHARED_CAP2:
+    scheme: H
+    rho: 0.70
+    resource_policy: shared_cap2
+    rescue_mode: harq_preserving
+    trigger_after_attempts: 2
+    maximum_physical_attempts_per_recovery_episode: 4
+  V0_7_RHO070_F2_FRESH_HARQ_SHARED_CAP2:
+    scheme: F
+    rho: 0.70
+    resource_policy: shared_cap2
+    rescue_mode: fresh_tb
+    trigger_after_attempts: 2
+    maximum_physical_attempts_per_recovery_episode: 6
+  V0_7_RHO070_H3_HARQ_PRESERVING_SHARED_CAP2:
+    scheme: H(K=3)
+    rho: 0.70
+    resource_policy: shared_cap2
+    rescue_mode: harq_preserving
+    trigger_after_attempts: 3
+    maximum_physical_attempts_per_recovery_episode: 4
+  V0_7_RHO070_F3_FRESH_HARQ_SHARED_CAP2:
+    scheme: F(K=3)
+    rho: 0.70
+    resource_policy: shared_cap2
+    rescue_mode: fresh_tb
+    trigger_after_attempts: 3
+    maximum_physical_attempts_per_recovery_episode: 7

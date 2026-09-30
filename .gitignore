@@ -1,0 +1,12 @@
+.venv/
+.venv-analysis/
+.venv-sls/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.DS_Store
+scratch/
+tmp/
+build/
+*.log

@@ -1,0 +1,9 @@
+{
+  "classification": "V0.8-TEST-D-ANALYSIS-COMPLETE",
+  "delivery_curve_sha256": "d5caee27864cd25fe9202f68ee124dbf64a66a7ce3d8eef4c226bfe5e9e3d9cb",
+  "implementation_sha": "c3119e74f4cb5db8c9d8523b80b489549063287d",
+  "new_production_run_count": 8,
+  "paired_statistics_sha256": "8b003df7727fa2359f4f8182270c55a8fe12d3aef6fc6091e071ec27f3a04af4",
+  "reference_run_count": 8,
+  "run_level_sha256": "c26712e5bfdc0e7709e0a04cc5906b35c2d191404634946341d9d285e4ab5875"
+}

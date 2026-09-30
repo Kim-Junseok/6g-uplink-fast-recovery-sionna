@@ -1,0 +1,53 @@
+{
+  "artifact_sha256": {
+    "completion_curve_source.csv": "0a3df58aac1d360f28502af0f266cb4b0965ffdf72b373cd92c1c469e92e2e2a",
+    "conditional_ecdf_source.csv": "9138a1ffff49c9c0c05cdf7765b8b99c14b5fabd1cd65addc9a6c45a4882583e",
+    "max_latency_histories.csv": "8bf10a15924e3bdc2f5847686c4025e4007891ede9041907d8618fd29f3b0eb6",
+    "paired_seed_differences.csv": "61c0f9c28c4ee4836ed8fa4c405c4574500a287146054fecad2978f2a8694ae2",
+    "paired_statistics.csv": "917f2040c66b8b559bef29aed1920973eeeca418c47822d04749b3082f229f89",
+    "per_seed_tail.csv": "bd053aefc6551ba46127ac42fe9fd5f801cc667239ce867a37197400ed03b212",
+    "rlc_retry_distribution.csv": "198872b4fcedd7310f029b2e56935ff1a99bae27337a496c99df681abb2d88fc",
+    "run_level_kpis.csv": "f10d487097c30a05eb60b9870b004f7dd240af91b65dc71983673bae60fd4153",
+    "scheme_seed_means.csv": "702c0a113b542c4fd1335348dd0442dee26dd7b39362e05ed641b42fd86ae773",
+    "v0_6_k3_a_completion.pdf": "0ddc34631dc149b3ae37d9da06491eb3cf4c98adcb6e17498fdc6b0aecee0323",
+    "v0_6_k3_a_completion.png": "c6e7373ca51643529c93d7329a9165ebd02ae38968ee290ca89482a931f33b11",
+    "v0_6_k3_a_completion.svg": "c193da1145251c0c1a715f9960d6205fc883b8b68f1e35c328c27590d4dfcd23",
+    "v0_6_k3_b_tail_zoom.pdf": "1e205dd4a28a34fcd6c070c2c82d54fda193e01bc75b3692af60ffc02c068309",
+    "v0_6_k3_b_tail_zoom.png": "2ad4dd44b5b4faa70fdcc718975f41cd2f6c63cecc982045adc8ab49b7120a13",
+    "v0_6_k3_b_tail_zoom.svg": "bc7b374eba73b2214ab550cffcbb92ab9c4b0f5c38d3f54f2a54fff3ed2b4e22",
+    "v0_6_k3_c_tail_summary.pdf": "89cd7ab887f27958741f5f9776cfab9c6fb922b050305fccee6b37a5d66a1015",
+    "v0_6_k3_c_tail_summary.png": "db0e2808ae660b560d2d8e80deda3ddc0cb05a115321944dcbe70af29f4a470c",
+    "v0_6_k3_c_tail_summary.svg": "6c29b0d4cbe62e15642cbc9469db843708738b2bb7ac4c1b517c558f1094f8ff",
+    "v0_6_k3_d_admission.pdf": "c3d2a3ad113851ed5a026ee6b541734cf76c16722a07ffe35afeffcdbd494239",
+    "v0_6_k3_d_admission.png": "3e377b8264ac47f026e3ab18e340d2b74ac667643d9504ddf4872f6a9f2511cc",
+    "v0_6_k3_d_admission.svg": "8162b6ae518bddf8b49d6215a06b1cbd341eb1d5fba81aa3812987a38a8017b1",
+    "v0_6_k3_e_resource_tradeoff.pdf": "50bf0bfe1cd63d90f5de54e11fd98762d5666583702ba8b1a306556ba54f2ec1",
+    "v0_6_k3_e_resource_tradeoff.png": "7fd01629caa8aba7d90f0d3d922f7d912f5d9146fc34caf93dd70b19faa9e6a6",
+    "v0_6_k3_e_resource_tradeoff.svg": "0249c8b32e257663cd9206bd1dbb7fa3bfb59f5e47cedcf9e8631ede395f6700",
+    "v0_6_k3_f_rlc_depth.pdf": "3615467ef367d9b3d5d8b7ef1dcece6d834e94fd398f2376fb9d52fb61ec7e39",
+    "v0_6_k3_f_rlc_depth.png": "c8e03bfa378b5fa749ef26acf84b662e1182bb0857f41c4fb41af429cf747af9",
+    "v0_6_k3_f_rlc_depth.svg": "d6e9afcbbe94ed91002f45f7bdce5892103267b26736300756a20493bb3aa9d5"
+  },
+  "config_sha256": "d94f904dd8e52c7cb3ae652f2582e7b21c494b4631b2c0eb2e87f6c31685767a",
+  "execution_classification": "V0_6-K3-COMPLETE",
+  "f3_decision": "F3-GO",
+  "implementation_sha": "1c8a9203c7a4a5c642611c9363cb30e00e9cad86",
+  "results_sha": "4e1238c95de99d88c8205cbe128807b0321c24fb",
+  "schemes": {
+    "B": "8 reused",
+    "H2": "8 reused",
+    "H3": "8 new"
+  },
+  "scientific_classification": "K3-EARLY-RESCUE-CONDITIONAL",
+  "seeds": [
+    9101,
+    9102,
+    9103,
+    9104,
+    9105,
+    9106,
+    9107,
+    9108
+  ],
+  "statistics": "paired seed-level Student-t 95% CI; exact sign-flip; leave-one-out"
+}

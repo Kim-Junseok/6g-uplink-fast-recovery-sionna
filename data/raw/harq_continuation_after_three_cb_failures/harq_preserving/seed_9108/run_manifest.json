@@ -1,0 +1,192 @@
+{
+  "config_file_sha256": "d94f904dd8e52c7cb3ae652f2582e7b21c494b4631b2c0eb2e87f6c31685767a",
+  "config_path": "configs/p3_hk3_v0_6.yaml",
+  "configuration_hash": "764b9429357816e7e63dd7d3217f213ecf777d623a5c1736aa024a26d73ed39a",
+  "development_override": false,
+  "dirty_worktree": false,
+  "ended_utc": "2026-09-15T13:48:26.929951+00:00",
+  "environment": {
+    "deterministic_algorithms": true,
+    "device": "cpu",
+    "python": "3.12.3",
+    "python_executable": "<local-python-executable-redacted>",
+    "sionna": "2.0.1",
+    "torch": "2.11.0+cu130",
+    "torch_num_threads": 1,
+    "worker_count": 1
+  },
+  "git_sha": "1c8a9203c7a4a5c642611c9363cb30e00e9cad86",
+  "milestone": "V0.6-K3",
+  "output_sha256": {
+    "attempts.csv.gz": "eca10d2c2f5b93189ac2e3cb66659aff9e338725db503f197376606a5090d4da",
+    "harq_episodes.csv.gz": "fef19e5f0ca05d5a62b5c13d10f591fdf214d03d46fefdffc17d524218630017",
+    "packets.csv.gz": "7e51b9e0b1fc3cc42b39f6738c53e08ffa54485222e2a2b5a16026eb355d6386",
+    "slot_prb.csv.gz": "09b6026a59a1b74d02cf24812a79fff3c4dcf7ba12b2bbf645f560ab16306f7c",
+    "summary.json": "39bab90b66565aa6aa3483825063bc51321807649d7d6fdc6c7a5edb178982c5"
+  },
+  "resolved_configuration": {
+    "common_contract": {
+      "baseline_reuse": {
+        "accepted_v0_6_config_sha256": "dfff30dc11d9a16468999533c7894f7303ab61dc35e623351a538c4314d824f7",
+        "accepted_v0_6_report_sha": "ec56afa5f726cb91c49b94982a2b3f2096903dfc",
+        "b_raw_root": "results/raw_v0_5",
+        "b_scenario_id": "V0_5_RHO090_FAST_SB",
+        "h2_raw_root": "results/raw_v0_6_p3",
+        "h2_scenario_id": "V0_6_RHO090_H_HARQ_PRESERVING_SHARED_CAP2"
+      },
+      "channel": {
+        "activity": "known",
+        "carrier_frequency_hz": 700000000.0,
+        "csi": "perfect",
+        "delay_spread_s": 3e-07,
+        "mobility_mps": 0.0,
+        "model": "TDL-C",
+        "noise_power_w": 1e-05,
+        "num_bs_receive_antennas": 2,
+        "num_ue_transmit_antennas": 1,
+        "operating_point": "Medium",
+        "receiver": "joint_LMMSE",
+        "scheduled_rv0_tbler_acceptance": [
+          0.4,
+          0.5
+        ],
+        "time_correlation": "independent_slot_blocks",
+        "transmit_power_dbm": -8.0
+      },
+      "main_seeds": [
+        9101,
+        9102,
+        9103,
+        9104,
+        9105,
+        9106,
+        9107,
+        9108
+      ],
+      "milestone": "V0.6-K3",
+      "phy": {
+        "allocated_pusch_symbols": 11,
+        "coded_bits": 504,
+        "data_re": 126,
+        "decoder_iterations": 20,
+        "dmrs_config_type": 1,
+        "dmrs_re_per_prb": 6,
+        "dmrs_symbols": [
+          2
+        ],
+        "information_bits": 160,
+        "ldpc_input_bits": 176,
+        "maximum_attempts": 4,
+        "mcs_index": 10,
+        "mcs_table": 1,
+        "modulation": "16-QAM",
+        "modulation_order": 4,
+        "prbs_per_attempt": 1,
+        "qam_symbols": 126,
+        "rv_sequence": [
+          0,
+          2,
+          3,
+          1
+        ],
+        "tb_crc_bits": 16
+      },
+      "recovery": {
+        "cb_retry_backoff_slots": 0,
+        "direct_scheduled_k2_slots": 1,
+        "fast_arq_delay_slots": 1,
+        "feedback_delay_slots": 1,
+        "harq_pusch_spacing_slots": 2,
+        "legacy_poll_retransmit_slots": 20,
+        "legacy_sr_period_slots": 10,
+        "legacy_sr_phase_domain": "v0.5-sr-phase",
+        "maximum_rlc_retransmissions": 6,
+        "scheduled_pusch_k2_slots": 1,
+        "sr_control_processing_slots": 1
+      },
+      "resource_policies": {
+        "shared_cap2": {
+          "identifier": "shared_cap2",
+          "minimum_cb_prbs": 4,
+          "mode": "shared",
+          "scheduled_capacity_prbs": 2,
+          "total_physical_prbs": 6
+        }
+      },
+      "resource_pool": {
+        "cb_selection": "event_addressed_uniform_over_available_prbs",
+        "num_prbs": 6,
+        "scheduled_priority": "earliest_target_then_arrival_then_event_addressed_tie_break",
+        "subcarrier_spacing_hz": 15000.0
+      },
+      "rng": {
+        "channel_domain": "channel",
+        "contract": "v0.4g-event-addressed-blake2s-v1",
+        "lls_awgn_domain": "lls_awgn",
+        "payload_domain": "payload_bits",
+        "scheduler_tie_domain": "scheduler_tie",
+        "traffic_domain": "v0.4g-p2-poisson"
+      },
+      "scenarios": {
+        "V0_6_RHO090_HK3_HARQ_PRESERVING_SHARED_CAP2": {
+          "maximum_physical_attempts_per_recovery_episode": 4,
+          "rescue_mode": "harq_preserving",
+          "resource_policy": "shared_cap2",
+          "rho": 0.9,
+          "scheme": "H(K=3)",
+          "trigger_after_attempts": 3
+        }
+      },
+      "schema_version": 5,
+      "scope": "H(K=3) HARQ-preserving rescue follow-up",
+      "stopping": {
+        "drain_to_terminal_state": true,
+        "hard_max_drain_slots": 100000,
+        "measured_new_packets": 2500,
+        "stop_arrivals_after_exact_packet_count": true,
+        "warmup_new_packets": 500
+      },
+      "traffic": {
+        "aggregate_arrival_rate_per_slot": {
+          "0.90": 5.4
+        },
+        "model": "independent_per_ue_poisson",
+        "num_ues": 3000,
+        "per_ue_arrival_rate_per_second": {
+          "0.90": 1.8
+        },
+        "per_ue_arrival_rate_per_slot": {
+          "0.90": 0.0018
+        },
+        "resource_capacity_attempts_per_slot": 6,
+        "rho_values": [
+          0.9
+        ]
+      }
+    },
+    "scenario": {
+      "maximum_physical_attempts_per_recovery_episode": 4,
+      "rescue_mode": "harq_preserving",
+      "resource_policy": "shared_cap2",
+      "rho": 0.9,
+      "scheme": "H(K=3)",
+      "trigger_after_attempts": 3
+    },
+    "scenario_id": "V0_6_RHO090_HK3_HARQ_PRESERVING_SHARED_CAP2",
+    "seed": 9108
+  },
+  "rng_contract": "v0.4g-event-addressed-blake2s-v1",
+  "runtime": {
+    "channel_lmmse_eesm_seconds": 27.95072639495629,
+    "direct_sionna_lls_seconds": 248.46080946591974,
+    "peak_rss_kib": 881784,
+    "phy_attempts": 9043,
+    "phy_attempts_per_second": 31.880985054094932,
+    "wall_seconds": 283.64870108800096,
+    "worker_count": 1
+  },
+  "scenario_id": "V0_6_RHO090_HK3_HARQ_PRESERVING_SHARED_CAP2",
+  "schema_version": 4,
+  "seed": 9108,
+  "started_utc": "2026-09-15T13:43:47.707599+00:00"
+}

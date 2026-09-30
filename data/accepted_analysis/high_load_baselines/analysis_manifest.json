@@ -1,0 +1,26 @@
+{
+  "classification": "V0_5-REBASELINE-ANALYSIS-COMPLETE",
+  "config_sha256": "23e70da2233671875735f91613709ebc57d803409b5ac7f646dae49c49e9a834",
+  "figures": 8,
+  "generation_command": "PYTHONPATH=src MPLCONFIGDIR=/tmp/matplotlib python experiments/35_v0_5_rebaseline_analysis.py",
+  "implementation_sha": "d66574649168feeb4a48d95784ea7ecf1255babc",
+  "policies": [
+    "Legacy-20",
+    "Legacy-15",
+    "Fast-CB",
+    "Fast-SB"
+  ],
+  "rho": 0.9,
+  "run_count": 32,
+  "seeds": [
+    9101,
+    9102,
+    9103,
+    9104,
+    9105,
+    9106,
+    9107,
+    9108
+  ],
+  "uncertainty": "95% Student-t interval over eight paired seeds"
+}

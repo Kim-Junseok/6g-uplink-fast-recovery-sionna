@@ -1,0 +1,199 @@
+{
+  "config_file_sha256": "9c1cbc72f7f7b9f2b409d6551c6800aa2adc55d3b731b75501e67a08e1f16029",
+  "config_path": "configs/p3_fk3_v0_6.yaml",
+  "configuration_hash": "15ea6ed04e5f252f40a555b125ff81004a5df3d5be0f30f7d19da691d5c91eef",
+  "development_override": false,
+  "dirty_worktree": false,
+  "ended_utc": "2026-09-15T18:00:33.596387+00:00",
+  "environment": {
+    "deterministic_algorithms": true,
+    "device": "cpu",
+    "python": "3.12.3",
+    "python_executable": "<local-python-executable-redacted>",
+    "sionna": "2.0.1",
+    "torch": "2.11.0+cu130",
+    "torch_num_threads": 1,
+    "worker_count": 1
+  },
+  "git_sha": "d86d4c6378647b4ee7a929170c0f70b35795fcb0",
+  "milestone": "V0.6-F3",
+  "output_sha256": {
+    "attempts.csv.gz": "0f6602ca2ef2a73536eb138c30c99c4841f669852e27b6299f8ed5f4563a320b",
+    "harq_episodes.csv.gz": "e088ff9f465a21b7b5975c15fed3f7afee136c35c5acf6f97fdeef83da87f460",
+    "packets.csv.gz": "b07e640cd00c35beaf9b31dc1af92435556d54ba5db11c0c311c0507e169bd7f",
+    "slot_prb.csv.gz": "8b0dddd05f778ec0cccc56c1b0f2ccc2549a9884323760f6dfc92368f39eb22e",
+    "summary.json": "119e6521d1a3b0237ff9300d291f6fe4a6bdc4efdd34a34a2ae837e077c7e96d"
+  },
+  "resolved_configuration": {
+    "common_contract": {
+      "baseline_reuse": {
+        "accepted_k3_implementation_sha": "1c8a9203c7a4a5c642611c9363cb30e00e9cad86",
+        "accepted_k3_report_sha": "5081d909861f9216aab77f31138556de156cd16f",
+        "accepted_k3_results_sha": "4e1238c95de99d88c8205cbe128807b0321c24fb",
+        "accepted_v0_6_config_sha256": "dfff30dc11d9a16468999533c7894f7303ab61dc35e623351a538c4314d824f7",
+        "accepted_v0_6_report_sha": "ec56afa5f726cb91c49b94982a2b3f2096903dfc",
+        "b_raw_root": "results/raw_v0_5",
+        "b_scenario_id": "V0_5_RHO090_FAST_SB",
+        "f2_raw_root": "results/raw_v0_6_p3",
+        "f2_scenario_id": "V0_6_RHO090_F_FRESH_HARQ_SHARED_CAP2",
+        "h2_raw_root": "results/raw_v0_6_p3",
+        "h2_scenario_id": "V0_6_RHO090_H_HARQ_PRESERVING_SHARED_CAP2",
+        "h3_raw_root": "results/raw_v0_6_k3",
+        "h3_scenario_id": "V0_6_RHO090_HK3_HARQ_PRESERVING_SHARED_CAP2"
+      },
+      "channel": {
+        "activity": "known",
+        "carrier_frequency_hz": 700000000.0,
+        "csi": "perfect",
+        "delay_spread_s": 3e-07,
+        "mobility_mps": 0.0,
+        "model": "TDL-C",
+        "noise_power_w": 1e-05,
+        "num_bs_receive_antennas": 2,
+        "num_ue_transmit_antennas": 1,
+        "operating_point": "Medium",
+        "receiver": "joint_LMMSE",
+        "scheduled_rv0_tbler_acceptance": [
+          0.4,
+          0.5
+        ],
+        "time_correlation": "independent_slot_blocks",
+        "transmit_power_dbm": -8.0
+      },
+      "main_seeds": [
+        9101,
+        9102,
+        9103,
+        9104,
+        9105,
+        9106,
+        9107,
+        9108
+      ],
+      "milestone": "V0.6-F3",
+      "phy": {
+        "allocated_pusch_symbols": 11,
+        "coded_bits": 504,
+        "data_re": 126,
+        "decoder_iterations": 20,
+        "dmrs_config_type": 1,
+        "dmrs_re_per_prb": 6,
+        "dmrs_symbols": [
+          2
+        ],
+        "information_bits": 160,
+        "ldpc_input_bits": 176,
+        "maximum_attempts": 4,
+        "mcs_index": 10,
+        "mcs_table": 1,
+        "modulation": "16-QAM",
+        "modulation_order": 4,
+        "prbs_per_attempt": 1,
+        "qam_symbols": 126,
+        "rv_sequence": [
+          0,
+          2,
+          3,
+          1
+        ],
+        "tb_crc_bits": 16
+      },
+      "recovery": {
+        "cb_retry_backoff_slots": 0,
+        "direct_scheduled_k2_slots": 1,
+        "fast_arq_delay_slots": 1,
+        "feedback_delay_slots": 1,
+        "harq_pusch_spacing_slots": 2,
+        "legacy_poll_retransmit_slots": 20,
+        "legacy_sr_period_slots": 10,
+        "legacy_sr_phase_domain": "v0.5-sr-phase",
+        "maximum_rlc_retransmissions": 6,
+        "scheduled_pusch_k2_slots": 1,
+        "sr_control_processing_slots": 1
+      },
+      "resource_policies": {
+        "shared_cap2": {
+          "identifier": "shared_cap2",
+          "minimum_cb_prbs": 4,
+          "mode": "shared",
+          "scheduled_capacity_prbs": 2,
+          "total_physical_prbs": 6
+        }
+      },
+      "resource_pool": {
+        "cb_selection": "event_addressed_uniform_over_available_prbs",
+        "num_prbs": 6,
+        "scheduled_priority": "earliest_target_then_arrival_then_event_addressed_tie_break",
+        "subcarrier_spacing_hz": 15000.0
+      },
+      "rng": {
+        "channel_domain": "channel",
+        "contract": "v0.4g-event-addressed-blake2s-v1",
+        "lls_awgn_domain": "lls_awgn",
+        "payload_domain": "payload_bits",
+        "scheduler_tie_domain": "scheduler_tie",
+        "traffic_domain": "v0.4g-p2-poisson"
+      },
+      "scenarios": {
+        "V0_6_RHO090_FK3_FRESH_HARQ_SHARED_CAP2": {
+          "maximum_physical_attempts_per_recovery_episode": 7,
+          "rescue_mode": "fresh_tb",
+          "resource_policy": "shared_cap2",
+          "rho": 0.9,
+          "scheme": "F(K=3)",
+          "trigger_after_attempts": 3
+        }
+      },
+      "schema_version": 5,
+      "scope": "F(K=3) fresh-HARQ control at the selected rescue trigger",
+      "stopping": {
+        "drain_to_terminal_state": true,
+        "hard_max_drain_slots": 100000,
+        "measured_new_packets": 2500,
+        "stop_arrivals_after_exact_packet_count": true,
+        "warmup_new_packets": 500
+      },
+      "traffic": {
+        "aggregate_arrival_rate_per_slot": {
+          "0.90": 5.4
+        },
+        "model": "independent_per_ue_poisson",
+        "num_ues": 3000,
+        "per_ue_arrival_rate_per_second": {
+          "0.90": 1.8
+        },
+        "per_ue_arrival_rate_per_slot": {
+          "0.90": 0.0018
+        },
+        "resource_capacity_attempts_per_slot": 6,
+        "rho_values": [
+          0.9
+        ]
+      }
+    },
+    "scenario": {
+      "maximum_physical_attempts_per_recovery_episode": 7,
+      "rescue_mode": "fresh_tb",
+      "resource_policy": "shared_cap2",
+      "rho": 0.9,
+      "scheme": "F(K=3)",
+      "trigger_after_attempts": 3
+    },
+    "scenario_id": "V0_6_RHO090_FK3_FRESH_HARQ_SHARED_CAP2",
+    "seed": 9104
+  },
+  "rng_contract": "v0.4g-event-addressed-blake2s-v1",
+  "runtime": {
+    "channel_lmmse_eesm_seconds": 30.21620316397457,
+    "direct_sionna_lls_seconds": 269.6088627006975,
+    "peak_rss_kib": 884352,
+    "phy_attempts": 9322,
+    "phy_attempts_per_second": 30.1106353748666,
+    "wall_seconds": 309.59160721600347,
+    "worker_count": 1
+  },
+  "scenario_id": "V0_6_RHO090_FK3_FRESH_HARQ_SHARED_CAP2",
+  "schema_version": 4,
+  "seed": 9104,
+  "started_utc": "2026-09-15T17:55:23.233844+00:00"
+}

@@ -1,0 +1,63 @@
+{
+  "campaigns": [
+    {
+      "legacy_id": "v0_5",
+      "public_id": "high_load_baselines",
+      "run_count": 32,
+      "scenarios": [
+        {"legacy_id": "V0_5_RHO090_LEGACY_RLC_SB_T20", "public_id": "legacy_poll_20_slots"},
+        {"legacy_id": "V0_5_RHO090_LEGACY_RLC_SB_T15", "public_id": "legacy_poll_15_slots"},
+        {"legacy_id": "V0_5_RHO090_FAST_CB", "public_id": "fast_cb"},
+        {"legacy_id": "V0_5_RHO090_FAST_SB", "public_id": "post_termination_scheduled"}
+      ]
+    },
+    {
+      "legacy_id": "v0_6_p3",
+      "public_id": "scheduled_recovery_after_two_cb_failures",
+      "run_count": 16,
+      "scenarios": [
+        {"legacy_id": "V0_6_RHO090_H_HARQ_PRESERVING_SHARED_CAP2", "public_id": "harq_preserving"},
+        {"legacy_id": "V0_6_RHO090_F_FRESH_HARQ_SHARED_CAP2", "public_id": "fresh_harq"}
+      ]
+    },
+    {
+      "legacy_id": "v0_6_k3",
+      "public_id": "harq_continuation_after_three_cb_failures",
+      "run_count": 8,
+      "scenarios": [
+        {"legacy_id": "V0_6_RHO090_HK3_HARQ_PRESERVING_SHARED_CAP2", "public_id": "harq_preserving"}
+      ]
+    },
+    {
+      "legacy_id": "v0_6_f3",
+      "public_id": "fresh_harq_after_three_cb_failures",
+      "run_count": 8,
+      "scenarios": [
+        {"legacy_id": "V0_6_RHO090_FK3_FRESH_HARQ_SHARED_CAP2", "public_id": "fresh_harq"}
+      ]
+    },
+    {
+      "legacy_id": "v0_7_rho070",
+      "public_id": "lower_load_policy_comparison",
+      "run_count": 64,
+      "scenarios": [
+        {"legacy_id": "V0_7_RHO070_LEGACY_RLC_SB_T20", "public_id": "legacy_poll_20_slots"},
+        {"legacy_id": "V0_7_RHO070_LEGACY_RLC_SB_T15", "public_id": "legacy_poll_15_slots"},
+        {"legacy_id": "V0_7_RHO070_FAST_CB", "public_id": "fast_cb"},
+        {"legacy_id": "V0_7_RHO070_FAST_SB", "public_id": "post_termination_scheduled"},
+        {"legacy_id": "V0_7_RHO070_H2_HARQ_PRESERVING_SHARED_CAP2", "public_id": "harq_preserving_after_two_cb_failures"},
+        {"legacy_id": "V0_7_RHO070_F2_FRESH_HARQ_SHARED_CAP2", "public_id": "fresh_harq_after_two_cb_failures"},
+        {"legacy_id": "V0_7_RHO070_H3_HARQ_PRESERVING_SHARED_CAP2", "public_id": "harq_preserving_after_three_cb_failures"},
+        {"legacy_id": "V0_7_RHO070_F3_FRESH_HARQ_SHARED_CAP2", "public_id": "fresh_harq_after_three_cb_failures"}
+      ]
+    },
+    {
+      "legacy_id": "v0_8_test_d",
+      "public_id": "fast_cb_reinjection_backoff",
+      "run_count": 8,
+      "scenarios": [
+        {"legacy_id": "V0_8_RHO090_FAST_CB_U0_3", "public_id": "randomized_reinjection_backoff"}
+      ]
+    }
+  ]
+}

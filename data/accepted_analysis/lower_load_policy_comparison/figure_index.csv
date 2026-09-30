@@ -1,0 +1,8 @@
+figure,panels
+v0_7_a_completion,two policy-group panels; rho=0.70
+v0_7_a2_conditional_ecdf,two policy-group panels; rho=0.70
+v0_7_b_selected_tail,"Legacy-20, B, H3, F3"
+v0_7_c_trigger,H2/H3 and F2/F3
+v0_7_d_harq_state,H2/F2 and H3/F3
+v0_7_e_fast_cb_load,Fast-CB at rho=0.70 and rho=0.90
+v0_7_f_p99_load,"Legacy-20, B, H3, F3 across load"

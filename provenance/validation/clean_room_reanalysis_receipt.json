@@ -1,0 +1,385 @@
+{
+  "accepted_analysis_files_hashed": 65,
+  "classification": "REANALYSIS-PASS",
+  "compared_csv_files": 59,
+  "comparisons": {
+    "v0_5_rebaseline": [
+      {
+        "columns": 3,
+        "file": "figure_index.csv",
+        "maximum_absolute_numeric_difference": 0.0,
+        "rows": 8
+      },
+      {
+        "columns": 8,
+        "file": "paired_seed_differences.csv",
+        "maximum_absolute_numeric_difference": 0.0,
+        "rows": 576
+      },
+      {
+        "columns": 18,
+        "file": "paired_statistics.csv",
+        "maximum_absolute_numeric_difference": 0.0,
+        "rows": 72
+      },
+      {
+        "columns": 41,
+        "file": "policy_seed_means.csv",
+        "maximum_absolute_numeric_difference": 0.0,
+        "rows": 4
+      },
+      {
+        "columns": 43,
+        "file": "run_level_kpis.csv",
+        "maximum_absolute_numeric_difference": 0.0,
+        "rows": 32
+      },
+      {
+        "columns": 14,
+        "file": "v0_5_1_completion_source.csv",
+        "maximum_absolute_numeric_difference": 0.0,
+        "rows": 2552
+      },
+      {
+        "columns": 14,
+        "file": "v0_5_2_conditional_latency_source.csv",
+        "maximum_absolute_numeric_difference": 0.0,
+        "rows": 2552
+      },
+      {
+        "columns": 11,
+        "file": "v0_5_3_reliability_source.csv",
+        "maximum_absolute_numeric_difference": 0.0,
+        "rows": 8
+      },
+      {
+        "columns": 11,
+        "file": "v0_5_4_latency_source.csv",
+        "maximum_absolute_numeric_difference": 0.0,
+        "rows": 8
+      },
+      {
+        "columns": 3,
+        "file": "v0_5_5_rlc_retry_distribution_source.csv",
+        "maximum_absolute_numeric_difference": 0.0,
+        "rows": 28
+      },
+      {
+        "columns": 11,
+        "file": "v0_5_6_legacy_timing_source.csv",
+        "maximum_absolute_numeric_difference": 0.0,
+        "rows": 6
+      },
+      {
+        "columns": 11,
+        "file": "v0_5_7_fast_resource_domain_source.csv",
+        "maximum_absolute_numeric_difference": 0.0,
+        "rows": 8
+      },
+      {
+        "columns": 11,
+        "file": "v0_5_8_scheduled_queue_resource_source.csv",
+        "maximum_absolute_numeric_difference": 0.0,
+        "rows": 16
+      }
+    ],
+    "v0_6_f3": [
+      {
+        "columns": 5,
+        "file": "completion_curve_source.csv",
+        "maximum_absolute_numeric_difference": 0.0,
+        "rows": 2289
+      },
+      {
+        "columns": 7,
+        "file": "first_scheduled_success.csv",
+        "maximum_absolute_numeric_difference": 0.0,
+        "rows": 16
+      },
+      {
+        "columns": 6,
+        "file": "max_latency_histories.csv",
+        "maximum_absolute_numeric_difference": 0.0,
+        "rows": 16
+      },
+      {
+        "columns": 4,
+        "file": "paired_seed_differences.csv",
+        "maximum_absolute_numeric_difference": 0.0,
+        "rows": 184
+      },
+      {
+        "columns": 11,
+        "file": "paired_statistics.csv",
+        "maximum_absolute_numeric_difference": 0.0,
+        "rows": 23
+      },
+      {
+        "columns": 5,
+        "file": "per_seed_tail.csv",
+        "maximum_absolute_numeric_difference": 0.0,
+        "rows": 16
+      },
+      {
+        "columns": 4,
+        "file": "rlc_retry_distribution.csv",
+        "maximum_absolute_numeric_difference": 0.0,
+        "rows": 14
+      },
+      {
+        "columns": 32,
+        "file": "run_level_kpis.csv",
+        "maximum_absolute_numeric_difference": 0.0,
+        "rows": 40
+      },
+      {
+        "columns": 31,
+        "file": "scheme_seed_means.csv",
+        "maximum_absolute_numeric_difference": 0.0,
+        "rows": 5
+      }
+    ],
+    "v0_6_k3": [
+      {
+        "columns": 5,
+        "file": "completion_curve_source.csv",
+        "maximum_absolute_numeric_difference": 0.0,
+        "rows": 2100
+      },
+      {
+        "columns": 5,
+        "file": "conditional_ecdf_source.csv",
+        "maximum_absolute_numeric_difference": 0.0,
+        "rows": 2100
+      },
+      {
+        "columns": 6,
+        "file": "max_latency_histories.csv",
+        "maximum_absolute_numeric_difference": 0.0,
+        "rows": 24
+      },
+      {
+        "columns": 4,
+        "file": "paired_seed_differences.csv",
+        "maximum_absolute_numeric_difference": 0.0,
+        "rows": 240
+      },
+      {
+        "columns": 11,
+        "file": "paired_statistics.csv",
+        "maximum_absolute_numeric_difference": 0.0,
+        "rows": 30
+      },
+      {
+        "columns": 5,
+        "file": "per_seed_tail.csv",
+        "maximum_absolute_numeric_difference": 0.0,
+        "rows": 24
+      },
+      {
+        "columns": 4,
+        "file": "rlc_retry_distribution.csv",
+        "maximum_absolute_numeric_difference": 0.0,
+        "rows": 21
+      },
+      {
+        "columns": 37,
+        "file": "run_level_kpis.csv",
+        "maximum_absolute_numeric_difference": 0.0,
+        "rows": 24
+      },
+      {
+        "columns": 36,
+        "file": "scheme_seed_means.csv",
+        "maximum_absolute_numeric_difference": 0.0,
+        "rows": 3
+      }
+    ],
+    "v0_6_p3": [
+      {
+        "columns": 6,
+        "file": "completion_curve_source.csv",
+        "maximum_absolute_numeric_difference": 0.0,
+        "rows": 2820
+      },
+      {
+        "columns": 6,
+        "file": "conditional_ecdf_source.csv",
+        "maximum_absolute_numeric_difference": 0.0,
+        "rows": 2820
+      },
+      {
+        "columns": 6,
+        "file": "max_latency_histories.csv",
+        "maximum_absolute_numeric_difference": 0.0,
+        "rows": 24
+      },
+      {
+        "columns": 4,
+        "file": "paired_seed_differences.csv",
+        "maximum_absolute_numeric_difference": 0.0,
+        "rows": 176
+      },
+      {
+        "columns": 11,
+        "file": "paired_statistics.csv",
+        "maximum_absolute_numeric_difference": 0.0,
+        "rows": 22
+      },
+      {
+        "columns": 5,
+        "file": "per_seed_tail.csv",
+        "maximum_absolute_numeric_difference": 0.0,
+        "rows": 24
+      },
+      {
+        "columns": 4,
+        "file": "rlc_retry_distribution.csv",
+        "maximum_absolute_numeric_difference": 0.0,
+        "rows": 21
+      },
+      {
+        "columns": 34,
+        "file": "run_level_kpis.csv",
+        "maximum_absolute_numeric_difference": 0.0,
+        "rows": 24
+      },
+      {
+        "columns": 33,
+        "file": "scheme_seed_means.csv",
+        "maximum_absolute_numeric_difference": 0.0,
+        "rows": 3
+      }
+    ],
+    "v0_7_rho070": [
+      {
+        "columns": 6,
+        "file": "completion_curve_source.csv",
+        "maximum_absolute_numeric_difference": 0.0,
+        "rows": 15040
+      },
+      {
+        "columns": 6,
+        "file": "conditional_ecdf_source.csv",
+        "maximum_absolute_numeric_difference": 0.0,
+        "rows": 15040
+      },
+      {
+        "columns": 7,
+        "file": "cross_load_descriptive.csv",
+        "maximum_absolute_numeric_difference": 0.0,
+        "rows": 1792
+      },
+      {
+        "columns": 8,
+        "file": "cross_load_summary.csv",
+        "maximum_absolute_numeric_difference": 0.0,
+        "rows": 224
+      },
+      {
+        "columns": 2,
+        "file": "figure_index.csv",
+        "maximum_absolute_numeric_difference": 0.0,
+        "rows": 7
+      },
+      {
+        "columns": 10,
+        "file": "harq_rescue_state.csv",
+        "maximum_absolute_numeric_difference": 0.0,
+        "rows": 53341
+      },
+      {
+        "columns": 9,
+        "file": "max_latency_histories.csv",
+        "maximum_absolute_numeric_difference": 0.0,
+        "rows": 128
+      },
+      {
+        "columns": 5,
+        "file": "max_latency_summary.csv",
+        "maximum_absolute_numeric_difference": 0.0,
+        "rows": 16
+      },
+      {
+        "columns": 6,
+        "file": "p99_seed_caution.csv",
+        "maximum_absolute_numeric_difference": 0.0,
+        "rows": 128
+      },
+      {
+        "columns": 5,
+        "file": "paired_seed_differences.csv",
+        "maximum_absolute_numeric_difference": 0.0,
+        "rows": 4032
+      },
+      {
+        "columns": 12,
+        "file": "paired_statistics.csv",
+        "maximum_absolute_numeric_difference": 0.0,
+        "rows": 504
+      },
+      {
+        "columns": 6,
+        "file": "rlc_retry_distribution.csv",
+        "maximum_absolute_numeric_difference": 0.0,
+        "rows": 896
+      },
+      {
+        "columns": 44,
+        "file": "run_level_kpis.csv",
+        "maximum_absolute_numeric_difference": 0.0,
+        "rows": 128
+      },
+      {
+        "columns": 7,
+        "file": "scheme_summary.csv",
+        "maximum_absolute_numeric_difference": 0.0,
+        "rows": 656
+      }
+    ],
+    "v0_8_test_d": [
+      {
+        "columns": 8,
+        "file": "integrity_audit.csv",
+        "maximum_absolute_numeric_difference": 0.0,
+        "rows": 16
+      },
+      {
+        "columns": 3,
+        "file": "packet_delivery_vs_latency.csv",
+        "maximum_absolute_numeric_difference": 0.0,
+        "rows": 165
+      },
+      {
+        "columns": 5,
+        "file": "paired_seed_differences.csv",
+        "maximum_absolute_numeric_difference": 0.0,
+        "rows": 104
+      },
+      {
+        "columns": 9,
+        "file": "paired_statistics.csv",
+        "maximum_absolute_numeric_difference": 0.0,
+        "rows": 13
+      },
+      {
+        "columns": 17,
+        "file": "run_level_metrics.csv",
+        "maximum_absolute_numeric_difference": 0.0,
+        "rows": 16
+      }
+    ]
+  },
+  "numeric_absolute_tolerance": "1E-9",
+  "numeric_relative_tolerance": "1E-12",
+  "raw_production_run_total": 136,
+  "raw_production_runs": {
+    "raw_v0_5": 32,
+    "raw_v0_6_f3": 8,
+    "raw_v0_6_k3": 8,
+    "raw_v0_6_p3": 16,
+    "raw_v0_7_rho070": 64,
+    "raw_v0_8_test_d": 8
+  },
+  "scope": "Archived raw records were reanalyzed. No SLS was run. PDF/SVG byte identity is not asserted."
+}

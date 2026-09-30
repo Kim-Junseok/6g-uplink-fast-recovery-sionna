@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ul-access"
+version = "0.1.0"
+description = "Reproducible 6G uplink-access research experiments with Sionna"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "PyYAML==6.0.3",
+    "sionna==2.0.1",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

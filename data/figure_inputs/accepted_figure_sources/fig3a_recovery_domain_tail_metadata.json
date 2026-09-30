@@ -1,0 +1,89 @@
+{
+  "SHOW_TITLES": false,
+  "accepted_result_commits": {
+    "V0.5_rebaseline": "0f166dab87c3c73f9f2289fae1e3190802376cb0",
+    "V0.6_F3_report": "d95059612ffbbf86d6c5e9e78f0b508fedb42079",
+    "V0.7_final_report": "ca5107b371842ad87b84c91f1fe3e9f1214d6818",
+    "V0.7_implementation_freeze": "39120e373e8e53e6153e5e8fa69bed510e5fc53c",
+    "V0.7_raw_results": "c90d1013a7e6e9192ea931bf66b3a6f6a25b1312"
+  },
+  "aggregation": "arithmetic mean of eight accepted seed-level estimates",
+  "artifact": "fig3a_recovery_domain_tail",
+  "caveat": "Fast-CB rho=0.90 P99 conditions on correct deliveries; its mean packet delivery probability is 0.7325.",
+  "colors": {
+    "B": "#D62728",
+    "Fast-CB": "#111111",
+    "Legacy-20": "#666666"
+  },
+  "data_source_files": [
+    {
+      "path": "results/v0_5_rebaseline/run_level_kpis.csv",
+      "sha256": "f5b434b0eb925fbfaacd05a0d9c62684d43ad50b405a5d43840bb9fb21afaa75"
+    },
+    {
+      "path": "results/v0_7_rho070/run_level_kpis.csv",
+      "sha256": "feb2e46e84b5612d5170a68bd595f21a36509eb537e9fc439b167e0222ac4499"
+    }
+  ],
+  "exports": [
+    "fig3a_recovery_domain_tail.pdf",
+    "fig3a_recovery_domain_tail.svg",
+    "fig3a_recovery_domain_tail.png"
+  ],
+  "figure_dimensions_inches": [
+    3.35,
+    2.45
+  ],
+  "generation_command": "MPLCONFIGDIR=/tmp/mpl-commmag PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=src <historical-python> scripts/paper_figures/build_all.py",
+  "hatch_line_width_pt": 0.45,
+  "line_width_pt": 1.5,
+  "linestyles": {
+    "B": "-",
+    "Fast-CB": "-.",
+    "Legacy-20": "--"
+  },
+  "loads": [
+    0.7,
+    0.9
+  ],
+  "main_figure_uncertainty": "omitted; accepted paired-seed analysis remains authoritative",
+  "manuscript_role": "WHERE should fast recovery occur?",
+  "marker_size_pt": 4.5,
+  "markers": {
+    "B": "D",
+    "Fast-CB": "s",
+    "Legacy-20": "o"
+  },
+  "metric_definitions": {
+    "conditional_p99_slots": "Per-seed P99 over correctly delivered packets, averaged over eight seeds.",
+    "correct_delivery_probability": "Fraction of all measured packets delivered with the correct payload."
+  },
+  "scheme_styles": {
+    "B": {
+      "color": "#D62728",
+      "label": "B",
+      "linestyle": "-",
+      "marker": "D"
+    },
+    "Fast-CB": {
+      "color": "#111111",
+      "label": "Fast-CB",
+      "linestyle": "-.",
+      "marker": "s"
+    },
+    "Legacy-20": {
+      "color": "#666666",
+      "label": "Legacy-20",
+      "linestyle": "--",
+      "marker": "o"
+    }
+  },
+  "schemes": [
+    "Legacy-20",
+    "Fast-CB",
+    "B"
+  ],
+  "selected_font": "STIXGeneral",
+  "source_data_csv": "fig3a_recovery_domain_tail_source.csv",
+  "spine_width_pt": 0.8
+}

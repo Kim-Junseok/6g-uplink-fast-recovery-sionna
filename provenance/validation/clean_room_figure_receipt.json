@@ -1,0 +1,41 @@
+{
+  "classification": "THREE-FIGURE-NUMERICAL-REBUILD-PASS",
+  "comparisons": {
+    "fig3a": {
+      "accepted_metadata_selected_font": "STIXGeneral",
+      "accepted_source_csv_sha256": "a3ab6f642a4190da86552fdc3b594913aaac561a7a991376ea07ae1b9d907c1a",
+      "figure_pdf": "figures/fig3a_recovery_domain_tail.pdf",
+      "generated_figure_pdf_present": true,
+      "included_figure_pdf_present": true,
+      "rebuilt_metadata_selected_font": "Nimbus Roman",
+      "rebuilt_source_csv_sha256": "a3ab6f642a4190da86552fdc3b594913aaac561a7a991376ea07ae1b9d907c1a",
+      "source_csv_byte_identical": true
+    },
+    "fig4a": {
+      "accepted_metadata_selected_font": "STIXGeneral",
+      "accepted_source_csv_sha256": "0b1313f4e85d3a2a371a176452b7d112e4dede86ded95fb213f621e88b6443a0",
+      "figure_pdf": "figures/fig4a_delay_scheduled_recovery_admission.pdf",
+      "generated_figure_pdf_present": true,
+      "included_figure_pdf_present": true,
+      "rebuilt_metadata_selected_font": "Nimbus Roman",
+      "rebuilt_source_csv_sha256": "0b1313f4e85d3a2a371a176452b7d112e4dede86ded95fb213f621e88b6443a0",
+      "source_csv_byte_identical": true
+    },
+    "fig5a": {
+      "accepted_metadata_selected_font": "STIXGeneral",
+      "accepted_source_csv_sha256": "340450895014653eb988b63d9430c58c09bad01a4acfa88c9b97f7edb723cb13",
+      "figure_pdf": "figures/fig5a_high_load_packet_delivery_vs_latency.pdf",
+      "generated_figure_pdf_present": true,
+      "included_figure_pdf_present": true,
+      "rebuilt_metadata_selected_font": "Nimbus Roman",
+      "rebuilt_source_csv_sha256": "340450895014653eb988b63d9430c58c09bad01a4acfa88c9b97f7edb723cb13",
+      "source_csv_byte_identical": true
+    }
+  },
+  "full_sls_rerun": false,
+  "selected": [
+    "fig3a",
+    "fig4a",
+    "fig5a"
+  ]
+}

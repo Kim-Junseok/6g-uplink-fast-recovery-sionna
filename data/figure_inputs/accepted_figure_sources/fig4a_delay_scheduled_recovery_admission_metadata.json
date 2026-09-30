@@ -1,0 +1,116 @@
+{
+  "SHOW_TITLES": false,
+  "accepted_result_commits": {
+    "V0.5_rebaseline": "0f166dab87c3c73f9f2289fae1e3190802376cb0",
+    "V0.6_F3_report": "d95059612ffbbf86d6c5e9e78f0b508fedb42079",
+    "V0.7_final_report": "ca5107b371842ad87b84c91f1fe3e9f1214d6818",
+    "V0.7_implementation_freeze": "39120e373e8e53e6153e5e8fa69bed510e5fc53c",
+    "V0.7_raw_results": "c90d1013a7e6e9192ea931bf66b3a6f6a25b1312"
+  },
+  "aggregation": "arithmetic mean of eight accepted seed-level estimates",
+  "artifact": "fig4a_delay_scheduled_recovery_admission",
+  "bar_hatches": {
+    "F3/F2": "",
+    "H3/H2": ""
+  },
+  "colors": {
+    "F2": "#CC0099",
+    "F3": "#CC0099",
+    "H2": "#0072B2",
+    "H3": "#0072B2"
+  },
+  "data_source_files": [
+    {
+      "path": "results/v0_6_f3/run_level_kpis.csv",
+      "sha256": "b94a0307cb6719a4f48e4327bda396ecdff26dcc04fef459fb5bd79f0d8d93da"
+    }
+  ],
+  "exports": [
+    "fig4a_delay_scheduled_recovery_admission.pdf",
+    "fig4a_delay_scheduled_recovery_admission.svg",
+    "fig4a_delay_scheduled_recovery_admission.png"
+  ],
+  "figure_dimensions_inches": [
+    3.35,
+    2.45
+  ],
+  "generation_command": "MPLCONFIGDIR=/tmp/mpl-commmag PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=src <historical-python> scripts/paper_figures/build_all.py",
+  "hatch_line_width_pt": 0.45,
+  "line_width_pt": 1.5,
+  "linestyles": {
+    "F2": "-",
+    "F3": ":",
+    "H2": "-",
+    "H3": [
+      0,
+      [
+        5,
+        1,
+        1,
+        1
+      ]
+    ]
+  },
+  "loads": [
+    0.9
+  ],
+  "main_figure_uncertainty": "omitted; accepted paired-seed analysis remains authoritative",
+  "manuscript_role": "WHEN should scheduled recovery occur?",
+  "marker_size_pt": 4.5,
+  "markers": {
+    "F2": "v",
+    "F3": "v",
+    "H2": "^",
+    "H3": "^"
+  },
+  "metric_definitions": {
+    "mean_queue": "Accepted rho=0.90 seed-mean mean queue.",
+    "mean_wait": "Accepted rho=0.90 seed-mean mean wait.",
+    "p99_latency": "Accepted rho=0.90 seed-mean p99.",
+    "scheduled_attempts_per_packet": "Accepted rho=0.90 seed-mean scheduled attempts."
+  },
+  "ratio_definition": "ratio of the two accepted eight-seed arithmetic means; values below one favor K=3",
+  "scheme_styles": {
+    "F2": {
+      "color": "#CC0099",
+      "label": "F2",
+      "linestyle": "-",
+      "marker": "v"
+    },
+    "F3": {
+      "color": "#CC0099",
+      "label": "F3",
+      "linestyle": ":",
+      "marker": "v"
+    },
+    "H2": {
+      "color": "#0072B2",
+      "label": "H2",
+      "linestyle": "-",
+      "marker": "^"
+    },
+    "H3": {
+      "color": "#0072B2",
+      "label": "H3",
+      "linestyle": [
+        0,
+        [
+          5,
+          1,
+          1,
+          1
+        ]
+      ],
+      "marker": "^"
+    }
+  },
+  "schemes": [
+    "H2",
+    "H3",
+    "F2",
+    "F3"
+  ],
+  "selected_font": "STIXGeneral",
+  "source_data_csv": "fig4a_delay_scheduled_recovery_admission_source.csv",
+  "spine_width_pt": 0.8
+}

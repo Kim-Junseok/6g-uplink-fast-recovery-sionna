@@ -1,0 +1,9 @@
+figure,class,claim
+v0_5_1_completion,MAIN-FIGURE-CANDIDATE,Correct-delivery-aware completion includes terminal-failure mass.
+v0_5_2_conditional_latency,MAIN-FIGURE-CANDIDATE,Conditional latency is shown separately from completion.
+v0_5_3_reliability,MAIN-FIGURE-CANDIDATE,Reliability uses the full measured-packet population.
+v0_5_4_latency,MAIN-FIGURE-CANDIDATE,Latency intervals use seed-level replication.
+v0_5_5_rlc_retry_distribution,MAIN-FIGURE-CANDIDATE,The distribution retains every count from zero to six.
+v0_5_6_legacy_timing,MAIN-FIGURE-CANDIDATE,Legacy timing separates SR and scheduled-queue delays.
+v0_5_7_fast_resource_domain,MAIN-FIGURE-CANDIDATE,Fast-CB and Fast-SB isolate the recovery resource domain.
+v0_5_8_scheduled_queue_resource,MAIN-FIGURE-CANDIDATE,Scheduled queueing is reported with shared-pool capacity.

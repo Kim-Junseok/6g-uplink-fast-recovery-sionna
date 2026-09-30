@@ -1,0 +1,10 @@
+{
+  "claim_rows": 52,
+  "classification": "EVIDENCE-MAP-PASS",
+  "evidence_map_sha256": "e0f94d42a4517217cc4335a46aef2ee6c7a61e711a059909c4448f2b02d6b839",
+  "figure_files_checked": 3,
+  "numeric_sentinel_groups_checked": 5,
+  "public_id_map_sha256": "a431eca8625da8e649ec9c9fb072d841a280c21c8464f90dd748d182c1013c5c",
+  "resolved_source_locators": 240,
+  "scope": "All locators and selected numerical anchors checked; full CSV reproduction is checked by reanalyze.py."
+}

@@ -1,0 +1,47 @@
+{
+  "b0_reference_comparison": null,
+  "b0_reference_comparison_pass": false,
+  "backoff_rng_domain": "v0.8-fast-cb-reinjection-opportunities-v1",
+  "baseline_config_path": "configs/timing_rebaseline_v0_5.yaml",
+  "baseline_config_sha256": "23e70da2233671875735f91613709ebc57d803409b5ac7f646dae49c49e9a834",
+  "config_path": "configs/fastcb_reinjection_backoff_v0_8.yaml",
+  "config_sha256": "d77465ce116833921ec329468f1d8fd49f614ff3a5a04f8c32ef4415915519db",
+  "configuration_hash": "2f52fa3e7fb3eeabbea0fd966c833db22c5f75cef3fd6d5fe9373e9a95c17798",
+  "dirty_worktree": false,
+  "ended_utc": "2026-09-24T14:01:46.544830+00:00",
+  "environment": {
+    "deterministic_algorithms": true,
+    "device": "cpu",
+    "python": "3.12.3",
+    "python_executable": "<local-python-executable-redacted>",
+    "sionna": "2.0.1",
+    "torch": "2.11.0+cu130",
+    "torch_num_threads": 1,
+    "worker_count": 1
+  },
+  "forced_b_zero": false,
+  "implementation_sha": "c3119e74f4cb5db8c9d8523b80b489549063287d",
+  "milestone": "V0.8-TEST-D",
+  "output_sha256": {
+    "attempts.csv.gz": "f5332966e083d32756bbfb1fb0acfd43bbeb11e1946c09ac5ce4cde8c7b31fd3",
+    "packets.csv.gz": "112a08bbf067670d7023338ea3c2c4bd431aacdfa83f7cac820bf56defc29b75",
+    "recovery_timing.csv.gz": "9ceffb7310338057cfe71a4ae1e2c98d2c485d81cdef906532a801f457a38d64",
+    "reinjection_decisions.csv.gz": "3ddedc346aec28fb787f077a4c156050576ce5aa3e79d28748d768e60182f3f9",
+    "slot_prb.csv.gz": "4d8f0c601a83b63d4c0d1a21d46c0a0cba73c82a40e4d1c7166df022664df304",
+    "summary.json": "c52fc68ce3428de69207ac7848a8448384302455bf210707b75b73c7866c9512"
+  },
+  "production": true,
+  "runtime": {
+    "channel_lmmse_eesm_seconds": 32.43235932202879,
+    "direct_sionna_lls_seconds": 230.9380567760527,
+    "peak_rss_kib": 1825468,
+    "phy_attempts": 8570,
+    "phy_attempts_per_second": 31.709335775598085,
+    "wall_seconds": 270.267408331998,
+    "worker_count": 1
+  },
+  "scenario_id": "V0_8_RHO090_FAST_CB_U0_3",
+  "schema_version": 1,
+  "seed": 9101,
+  "started_utc": "2026-09-24T13:57:12.955408+00:00"
+}

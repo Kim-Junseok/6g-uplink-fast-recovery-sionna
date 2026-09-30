@@ -1,0 +1,15 @@
+schema_version: 1
+milestone: V0.8-TEST-D
+question: short randomized post-termination Fast-CB reinjection delay
+baseline_config: configs/timing_rebaseline_v0_5.yaml
+baseline_config_sha256: 23e70da2233671875735f91613709ebc57d803409b5ac7f646dae49c49e9a834
+baseline_scenario: V0_5_RHO090_FAST_CB
+scenario_id: V0_8_RHO090_FAST_CB_U0_3
+rho: 0.90
+channel: Medium
+traffic: independent_per_ue_poisson
+seeds: [9101, 9102, 9103, 9104, 9105, 9106, 9107, 9108]
+cb_opportunity_period_slots: 1
+additional_eligible_cb_opportunities: [0, 1, 2, 3]
+backoff_rng_domain: v0.8-fast-cb-reinjection-opportunities-v1
+reference_raw_root: results/raw_v0_5/V0_5_RHO090_FAST_CB

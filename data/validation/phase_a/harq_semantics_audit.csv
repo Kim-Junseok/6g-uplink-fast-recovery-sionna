@@ -1,0 +1,129 @@
+campaign,scenario,seed,family,trigger_k,transferred_packets_checked,representative,pretransfer_cb_attempts,configured_max_physical_attempts,remaining_attempts_at_transfer,missing_cb_prefix_violations,id_change_violations,id_reuse_violations,first_rv_violations,prefix_rv_violations,llr_count_violations,payload_missing_violations,terminal_before_continuation_violations,missing_episode_record_violations,physical_counter_violations,cb_during_scheduled_wait_violations,scheduled_before_trigger_violations
+V0.5,V0_5_RHO090_FAST_CB,9101,,,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0
+V0.5,V0_5_RHO090_FAST_CB,9102,,,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0
+V0.5,V0_5_RHO090_FAST_CB,9103,,,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0
+V0.5,V0_5_RHO090_FAST_CB,9104,,,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0
+V0.5,V0_5_RHO090_FAST_CB,9105,,,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0
+V0.5,V0_5_RHO090_FAST_CB,9106,,,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0
+V0.5,V0_5_RHO090_FAST_CB,9107,,,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0
+V0.5,V0_5_RHO090_FAST_CB,9108,,,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0
+V0.5,V0_5_RHO090_FAST_SB,9101,,,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0
+V0.5,V0_5_RHO090_FAST_SB,9102,,,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0
+V0.5,V0_5_RHO090_FAST_SB,9103,,,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0
+V0.5,V0_5_RHO090_FAST_SB,9104,,,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0
+V0.5,V0_5_RHO090_FAST_SB,9105,,,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0
+V0.5,V0_5_RHO090_FAST_SB,9106,,,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0
+V0.5,V0_5_RHO090_FAST_SB,9107,,,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0
+V0.5,V0_5_RHO090_FAST_SB,9108,,,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0
+V0.5,V0_5_RHO090_LEGACY_RLC_SB_T15,9101,,,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0
+V0.5,V0_5_RHO090_LEGACY_RLC_SB_T15,9102,,,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0
+V0.5,V0_5_RHO090_LEGACY_RLC_SB_T15,9103,,,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0
+V0.5,V0_5_RHO090_LEGACY_RLC_SB_T15,9104,,,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0
+V0.5,V0_5_RHO090_LEGACY_RLC_SB_T15,9105,,,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0
+V0.5,V0_5_RHO090_LEGACY_RLC_SB_T15,9106,,,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0
+V0.5,V0_5_RHO090_LEGACY_RLC_SB_T15,9107,,,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0
+V0.5,V0_5_RHO090_LEGACY_RLC_SB_T15,9108,,,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0
+V0.5,V0_5_RHO090_LEGACY_RLC_SB_T20,9101,,,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0
+V0.5,V0_5_RHO090_LEGACY_RLC_SB_T20,9102,,,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0
+V0.5,V0_5_RHO090_LEGACY_RLC_SB_T20,9103,,,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0
+V0.5,V0_5_RHO090_LEGACY_RLC_SB_T20,9104,,,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0
+V0.5,V0_5_RHO090_LEGACY_RLC_SB_T20,9105,,,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0
+V0.5,V0_5_RHO090_LEGACY_RLC_SB_T20,9106,,,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0
+V0.5,V0_5_RHO090_LEGACY_RLC_SB_T20,9107,,,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0
+V0.5,V0_5_RHO090_LEGACY_RLC_SB_T20,9108,,,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0
+V0.6-K2,V0_6_RHO090_F_FRESH_HARQ_SHARED_CAP2,9101,F,2,1132,payload=504; CB RV2 episode=harq-504-0; scheduled RV0 episode=harq-504-1; slot=152,2,6,4,0,0,0,0,0,0,0,0,0,0,0,0
+V0.6-K2,V0_6_RHO090_F_FRESH_HARQ_SHARED_CAP2,9102,F,2,1063,payload=500; CB RV2 episode=harq-500-0; scheduled RV0 episode=harq-500-1; slot=171,2,6,4,0,0,0,0,0,0,0,0,0,0,0,0
+V0.6-K2,V0_6_RHO090_F_FRESH_HARQ_SHARED_CAP2,9103,F,2,1094,payload=501; CB RV2 episode=harq-501-0; scheduled RV0 episode=harq-501-1; slot=158,2,6,4,0,0,0,0,0,0,0,0,0,0,0,0
+V0.6-K2,V0_6_RHO090_F_FRESH_HARQ_SHARED_CAP2,9104,F,2,1076,payload=501; CB RV2 episode=harq-501-0; scheduled RV0 episode=harq-501-1; slot=176,2,6,4,0,0,0,0,0,0,0,0,0,0,0,0
+V0.6-K2,V0_6_RHO090_F_FRESH_HARQ_SHARED_CAP2,9105,F,2,1074,payload=500; CB RV2 episode=harq-500-0; scheduled RV0 episode=harq-500-1; slot=165,2,6,4,0,0,0,0,0,0,0,0,0,0,0,0
+V0.6-K2,V0_6_RHO090_F_FRESH_HARQ_SHARED_CAP2,9106,F,2,1082,payload=500; CB RV2 episode=harq-500-0; scheduled RV0 episode=harq-500-1; slot=166,2,6,4,0,0,0,0,0,0,0,0,0,0,0,0
+V0.6-K2,V0_6_RHO090_F_FRESH_HARQ_SHARED_CAP2,9107,F,2,1086,payload=500; CB RV2 episode=harq-500-0; scheduled RV0 episode=harq-500-1; slot=166,2,6,4,0,0,0,0,0,0,0,0,0,0,0,0
+V0.6-K2,V0_6_RHO090_F_FRESH_HARQ_SHARED_CAP2,9108,F,2,1105,payload=501; CB RV2 episode=harq-501-0; scheduled RV0 episode=harq-501-1; slot=164,2,6,4,0,0,0,0,0,0,0,0,0,0,0,0
+V0.6-K2,V0_6_RHO090_H_HARQ_PRESERVING_SHARED_CAP2,9101,H,2,1211,payload=504; CB RV2 episode=harq-504-0; scheduled RV3 episode=harq-504-0; slot=132,2,4,2,0,0,0,0,0,0,0,0,0,0,0,0
+V0.6-K2,V0_6_RHO090_H_HARQ_PRESERVING_SHARED_CAP2,9102,H,2,1185,payload=500; CB RV2 episode=harq-500-0; scheduled RV3 episode=harq-500-0; slot=151,2,4,2,0,0,0,0,0,0,0,0,0,0,0,0
+V0.6-K2,V0_6_RHO090_H_HARQ_PRESERVING_SHARED_CAP2,9103,H,2,1184,payload=501; CB RV2 episode=harq-501-0; scheduled RV3 episode=harq-501-0; slot=133,2,4,2,0,0,0,0,0,0,0,0,0,0,0,0
+V0.6-K2,V0_6_RHO090_H_HARQ_PRESERVING_SHARED_CAP2,9104,H,2,1168,payload=501; CB RV2 episode=harq-501-0; scheduled RV3 episode=harq-501-0; slot=153,2,4,2,0,0,0,0,0,0,0,0,0,0,0,0
+V0.6-K2,V0_6_RHO090_H_HARQ_PRESERVING_SHARED_CAP2,9105,H,2,1196,payload=500; CB RV2 episode=harq-500-0; scheduled RV3 episode=harq-500-0; slot=139,2,4,2,0,0,0,0,0,0,0,0,0,0,0,0
+V0.6-K2,V0_6_RHO090_H_HARQ_PRESERVING_SHARED_CAP2,9106,H,2,1199,payload=500; CB RV2 episode=harq-500-0; scheduled RV3 episode=harq-500-0; slot=144,2,4,2,0,0,0,0,0,0,0,0,0,0,0,0
+V0.6-K2,V0_6_RHO090_H_HARQ_PRESERVING_SHARED_CAP2,9107,H,2,1179,payload=500; CB RV2 episode=harq-500-0; scheduled RV3 episode=harq-500-0; slot=137,2,4,2,0,0,0,0,0,0,0,0,0,0,0,0
+V0.6-K2,V0_6_RHO090_H_HARQ_PRESERVING_SHARED_CAP2,9108,H,2,1192,payload=502; CB RV2 episode=harq-502-0; scheduled RV3 episode=harq-502-0; slot=141,2,4,2,0,0,0,0,0,0,0,0,0,0,0,0
+V0.6-H3,V0_6_RHO090_HK3_HARQ_PRESERVING_SHARED_CAP2,9101,H,3,1000,payload=505; CB RV3 episode=harq-505-0; scheduled RV1 episode=harq-505-0; slot=110,3,4,1,0,0,0,0,0,0,0,0,0,0,0,0
+V0.6-H3,V0_6_RHO090_HK3_HARQ_PRESERVING_SHARED_CAP2,9102,H,3,971,payload=500; CB RV3 episode=harq-500-0; scheduled RV1 episode=harq-500-0; slot=121,3,4,1,0,0,0,0,0,0,0,0,0,0,0,0
+V0.6-H3,V0_6_RHO090_HK3_HARQ_PRESERVING_SHARED_CAP2,9103,H,3,944,payload=500; CB RV3 episode=harq-500-0; scheduled RV1 episode=harq-500-0; slot=104,3,4,1,0,0,0,0,0,0,0,0,0,0,0,0
+V0.6-H3,V0_6_RHO090_HK3_HARQ_PRESERVING_SHARED_CAP2,9104,H,3,952,payload=502; CB RV3 episode=harq-502-0; scheduled RV1 episode=harq-502-0; slot=137,3,4,1,0,0,0,0,0,0,0,0,0,0,0,0
+V0.6-H3,V0_6_RHO090_HK3_HARQ_PRESERVING_SHARED_CAP2,9105,H,3,960,payload=500; CB RV3 episode=harq-500-0; scheduled RV1 episode=harq-500-0; slot=114,3,4,1,0,0,0,0,0,0,0,0,0,0,0,0
+V0.6-H3,V0_6_RHO090_HK3_HARQ_PRESERVING_SHARED_CAP2,9106,H,3,968,payload=500; CB RV3 episode=harq-500-0; scheduled RV1 episode=harq-500-0; slot=114,3,4,1,0,0,0,0,0,0,0,0,0,0,0,0
+V0.6-H3,V0_6_RHO090_HK3_HARQ_PRESERVING_SHARED_CAP2,9107,H,3,966,payload=500; CB RV3 episode=harq-500-0; scheduled RV1 episode=harq-500-0; slot=112,3,4,1,0,0,0,0,0,0,0,0,0,0,0,0
+V0.6-H3,V0_6_RHO090_HK3_HARQ_PRESERVING_SHARED_CAP2,9108,H,3,963,payload=502; CB RV3 episode=harq-502-0; scheduled RV1 episode=harq-502-0; slot=115,3,4,1,0,0,0,0,0,0,0,0,0,0,0,0
+V0.6-F3,V0_6_RHO090_FK3_FRESH_HARQ_SHARED_CAP2,9101,F,3,901,payload=505; CB RV3 episode=harq-505-0; scheduled RV0 episode=harq-505-1; slot=136,3,7,4,0,0,0,0,0,0,0,0,0,0,0,0
+V0.6-F3,V0_6_RHO090_FK3_FRESH_HARQ_SHARED_CAP2,9102,F,3,845,payload=500; CB RV3 episode=harq-500-0; scheduled RV0 episode=harq-500-1; slot=147,3,7,4,0,0,0,0,0,0,0,0,0,0,0,0
+V0.6-F3,V0_6_RHO090_FK3_FRESH_HARQ_SHARED_CAP2,9103,F,3,890,payload=500; CB RV3 episode=harq-500-0; scheduled RV0 episode=harq-500-1; slot=119,3,7,4,0,0,0,0,0,0,0,0,0,0,0,0
+V0.6-F3,V0_6_RHO090_FK3_FRESH_HARQ_SHARED_CAP2,9104,F,3,872,payload=502; CB RV3 episode=harq-502-0; scheduled RV0 episode=harq-502-1; slot=153,3,7,4,0,0,0,0,0,0,0,0,0,0,0,0
+V0.6-F3,V0_6_RHO090_FK3_FRESH_HARQ_SHARED_CAP2,9105,F,3,880,payload=500; CB RV3 episode=harq-500-0; scheduled RV0 episode=harq-500-1; slot=133,3,7,4,0,0,0,0,0,0,0,0,0,0,0,0
+V0.6-F3,V0_6_RHO090_FK3_FRESH_HARQ_SHARED_CAP2,9106,F,3,902,payload=500; CB RV3 episode=harq-500-0; scheduled RV0 episode=harq-500-1; slot=123,3,7,4,0,0,0,0,0,0,0,0,0,0,0,0
+V0.6-F3,V0_6_RHO090_FK3_FRESH_HARQ_SHARED_CAP2,9107,F,3,902,payload=501; CB RV3 episode=harq-501-0; scheduled RV0 episode=harq-501-1; slot=137,3,7,4,0,0,0,0,0,0,0,0,0,0,0,0
+V0.6-F3,V0_6_RHO090_FK3_FRESH_HARQ_SHARED_CAP2,9108,F,3,870,payload=501; CB RV3 episode=harq-501-0; scheduled RV0 episode=harq-501-1; slot=132,3,7,4,0,0,0,0,0,0,0,0,0,0,0,0
+V0.7,V0_7_RHO070_F2_FRESH_HARQ_SHARED_CAP2,9101,F,2,971,payload=503; CB RV2 episode=harq-503-0; scheduled RV0 episode=harq-503-1; slot=164,2,6,4,0,0,0,0,0,0,0,0,0,0,0,0
+V0.7,V0_7_RHO070_F2_FRESH_HARQ_SHARED_CAP2,9102,F,2,931,payload=504; CB RV2 episode=harq-504-0; scheduled RV0 episode=harq-504-1; slot=146,2,6,4,0,0,0,0,0,0,0,0,0,0,0,0
+V0.7,V0_7_RHO070_F2_FRESH_HARQ_SHARED_CAP2,9103,F,2,978,payload=502; CB RV2 episode=harq-502-0; scheduled RV0 episode=harq-502-1; slot=145,2,6,4,0,0,0,0,0,0,0,0,0,0,0,0
+V0.7,V0_7_RHO070_F2_FRESH_HARQ_SHARED_CAP2,9104,F,2,963,payload=502; CB RV2 episode=harq-502-0; scheduled RV0 episode=harq-502-1; slot=150,2,6,4,0,0,0,0,0,0,0,0,0,0,0,0
+V0.7,V0_7_RHO070_F2_FRESH_HARQ_SHARED_CAP2,9105,F,2,936,payload=501; CB RV2 episode=harq-501-0; scheduled RV0 episode=harq-501-1; slot=146,2,6,4,0,0,0,0,0,0,0,0,0,0,0,0
+V0.7,V0_7_RHO070_F2_FRESH_HARQ_SHARED_CAP2,9106,F,2,948,payload=501; CB RV2 episode=harq-501-0; scheduled RV0 episode=harq-501-1; slot=143,2,6,4,0,0,0,0,0,0,0,0,0,0,0,0
+V0.7,V0_7_RHO070_F2_FRESH_HARQ_SHARED_CAP2,9107,F,2,950,payload=505; CB RV2 episode=harq-505-0; scheduled RV0 episode=harq-505-1; slot=148,2,6,4,0,0,0,0,0,0,0,0,0,0,0,0
+V0.7,V0_7_RHO070_F2_FRESH_HARQ_SHARED_CAP2,9108,F,2,921,payload=501; CB RV2 episode=harq-501-0; scheduled RV0 episode=harq-501-1; slot=153,2,6,4,0,0,0,0,0,0,0,0,0,0,0,0
+V0.7,V0_7_RHO070_F3_FRESH_HARQ_SHARED_CAP2,9101,F,3,359,payload=505; CB RV3 episode=harq-505-0; scheduled RV0 episode=harq-505-1; slot=126,3,7,4,0,0,0,0,0,0,0,0,0,0,0,0
+V0.7,V0_7_RHO070_F3_FRESH_HARQ_SHARED_CAP2,9102,F,3,322,payload=504; CB RV3 episode=harq-504-0; scheduled RV0 episode=harq-504-1; slot=118,3,7,4,0,0,0,0,0,0,0,0,0,0,0,0
+V0.7,V0_7_RHO070_F3_FRESH_HARQ_SHARED_CAP2,9103,F,3,386,payload=518; CB RV3 episode=harq-518-0; scheduled RV0 episode=harq-518-1; slot=140,3,7,4,0,0,0,0,0,0,0,0,0,0,0,0
+V0.7,V0_7_RHO070_F3_FRESH_HARQ_SHARED_CAP2,9104,F,3,413,payload=500; CB RV3 episode=harq-500-0; scheduled RV0 episode=harq-500-1; slot=125,3,7,4,0,0,0,0,0,0,0,0,0,0,0,0
+V0.7,V0_7_RHO070_F3_FRESH_HARQ_SHARED_CAP2,9105,F,3,354,payload=513; CB RV3 episode=harq-513-0; scheduled RV0 episode=harq-513-1; slot=123,3,7,4,0,0,0,0,0,0,0,0,0,0,0,0
+V0.7,V0_7_RHO070_F3_FRESH_HARQ_SHARED_CAP2,9106,F,3,333,payload=507; CB RV3 episode=harq-507-0; scheduled RV0 episode=harq-507-1; slot=131,3,7,4,0,0,0,0,0,0,0,0,0,0,0,0
+V0.7,V0_7_RHO070_F3_FRESH_HARQ_SHARED_CAP2,9107,F,3,339,payload=514; CB RV3 episode=harq-514-0; scheduled RV0 episode=harq-514-1; slot=128,3,7,4,0,0,0,0,0,0,0,0,0,0,0,0
+V0.7,V0_7_RHO070_F3_FRESH_HARQ_SHARED_CAP2,9108,F,3,383,payload=500; CB RV3 episode=harq-500-0; scheduled RV0 episode=harq-500-1; slot=118,3,7,4,0,0,0,0,0,0,0,0,0,0,0,0
+V0.7,V0_7_RHO070_FAST_CB,9101,,,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0
+V0.7,V0_7_RHO070_FAST_CB,9102,,,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0
+V0.7,V0_7_RHO070_FAST_CB,9103,,,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0
+V0.7,V0_7_RHO070_FAST_CB,9104,,,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0
+V0.7,V0_7_RHO070_FAST_CB,9105,,,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0
+V0.7,V0_7_RHO070_FAST_CB,9106,,,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0
+V0.7,V0_7_RHO070_FAST_CB,9107,,,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0
+V0.7,V0_7_RHO070_FAST_CB,9108,,,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0
+V0.7,V0_7_RHO070_FAST_SB,9101,,,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0
+V0.7,V0_7_RHO070_FAST_SB,9102,,,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0
+V0.7,V0_7_RHO070_FAST_SB,9103,,,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0
+V0.7,V0_7_RHO070_FAST_SB,9104,,,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0
+V0.7,V0_7_RHO070_FAST_SB,9105,,,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0
+V0.7,V0_7_RHO070_FAST_SB,9106,,,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0
+V0.7,V0_7_RHO070_FAST_SB,9107,,,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0
+V0.7,V0_7_RHO070_FAST_SB,9108,,,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0
+V0.7,V0_7_RHO070_H2_HARQ_PRESERVING_SHARED_CAP2,9101,H,2,956,payload=503; CB RV2 episode=harq-503-0; scheduled RV3 episode=harq-503-0; slot=124,2,4,2,0,0,0,0,0,0,0,0,0,0,0,0
+V0.7,V0_7_RHO070_H2_HARQ_PRESERVING_SHARED_CAP2,9102,H,2,923,payload=504; CB RV2 episode=harq-504-0; scheduled RV3 episode=harq-504-0; slot=117,2,4,2,0,0,0,0,0,0,0,0,0,0,0,0
+V0.7,V0_7_RHO070_H2_HARQ_PRESERVING_SHARED_CAP2,9103,H,2,934,payload=502; CB RV2 episode=harq-502-0; scheduled RV3 episode=harq-502-0; slot=133,2,4,2,0,0,0,0,0,0,0,0,0,0,0,0
+V0.7,V0_7_RHO070_H2_HARQ_PRESERVING_SHARED_CAP2,9104,H,2,970,payload=502; CB RV2 episode=harq-502-0; scheduled RV3 episode=harq-502-0; slot=125,2,4,2,0,0,0,0,0,0,0,0,0,0,0,0
+V0.7,V0_7_RHO070_H2_HARQ_PRESERVING_SHARED_CAP2,9105,H,2,953,payload=501; CB RV2 episode=harq-501-0; scheduled RV3 episode=harq-501-0; slot=127,2,4,2,0,0,0,0,0,0,0,0,0,0,0,0
+V0.7,V0_7_RHO070_H2_HARQ_PRESERVING_SHARED_CAP2,9106,H,2,929,payload=501; CB RV2 episode=harq-501-0; scheduled RV3 episode=harq-501-0; slot=128,2,4,2,0,0,0,0,0,0,0,0,0,0,0,0
+V0.7,V0_7_RHO070_H2_HARQ_PRESERVING_SHARED_CAP2,9107,H,2,944,payload=505; CB RV2 episode=harq-505-0; scheduled RV3 episode=harq-505-0; slot=127,2,4,2,0,0,0,0,0,0,0,0,0,0,0,0
+V0.7,V0_7_RHO070_H2_HARQ_PRESERVING_SHARED_CAP2,9108,H,2,899,payload=501; CB RV2 episode=harq-501-0; scheduled RV3 episode=harq-501-0; slot=125,2,4,2,0,0,0,0,0,0,0,0,0,0,0,0
+V0.7,V0_7_RHO070_H3_HARQ_PRESERVING_SHARED_CAP2,9101,H,3,311,payload=525; CB RV3 episode=harq-525-0; scheduled RV1 episode=harq-525-0; slot=132,3,4,1,0,0,0,0,0,0,0,0,0,0,0,0
+V0.7,V0_7_RHO070_H3_HARQ_PRESERVING_SHARED_CAP2,9102,H,3,265,payload=504; CB RV3 episode=harq-504-0; scheduled RV1 episode=harq-504-0; slot=118,3,4,1,0,0,0,0,0,0,0,0,0,0,0,0
+V0.7,V0_7_RHO070_H3_HARQ_PRESERVING_SHARED_CAP2,9103,H,3,321,payload=518; CB RV3 episode=harq-518-0; scheduled RV1 episode=harq-518-0; slot=140,3,4,1,0,0,0,0,0,0,0,0,0,0,0,0
+V0.7,V0_7_RHO070_H3_HARQ_PRESERVING_SHARED_CAP2,9104,H,3,318,payload=500; CB RV3 episode=harq-500-0; scheduled RV1 episode=harq-500-0; slot=112,3,4,1,0,0,0,0,0,0,0,0,0,0,0,0
+V0.7,V0_7_RHO070_H3_HARQ_PRESERVING_SHARED_CAP2,9105,H,3,286,payload=501; CB RV3 episode=harq-501-0; scheduled RV1 episode=harq-501-0; slot=120,3,4,1,0,0,0,0,0,0,0,0,0,0,0,0
+V0.7,V0_7_RHO070_H3_HARQ_PRESERVING_SHARED_CAP2,9106,H,3,252,payload=507; CB RV3 episode=harq-507-0; scheduled RV1 episode=harq-507-0; slot=129,3,4,1,0,0,0,0,0,0,0,0,0,0,0,0
+V0.7,V0_7_RHO070_H3_HARQ_PRESERVING_SHARED_CAP2,9107,H,3,265,payload=521; CB RV3 episode=harq-521-0; scheduled RV1 episode=harq-521-0; slot=130,3,4,1,0,0,0,0,0,0,0,0,0,0,0,0
+V0.7,V0_7_RHO070_H3_HARQ_PRESERVING_SHARED_CAP2,9108,H,3,316,payload=500; CB RV3 episode=harq-500-0; scheduled RV1 episode=harq-500-0; slot=115,3,4,1,0,0,0,0,0,0,0,0,0,0,0,0
+V0.7,V0_7_RHO070_LEGACY_RLC_SB_T15,9101,,,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0
+V0.7,V0_7_RHO070_LEGACY_RLC_SB_T15,9102,,,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0
+V0.7,V0_7_RHO070_LEGACY_RLC_SB_T15,9103,,,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0
+V0.7,V0_7_RHO070_LEGACY_RLC_SB_T15,9104,,,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0
+V0.7,V0_7_RHO070_LEGACY_RLC_SB_T15,9105,,,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0
+V0.7,V0_7_RHO070_LEGACY_RLC_SB_T15,9106,,,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0
+V0.7,V0_7_RHO070_LEGACY_RLC_SB_T15,9107,,,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0
+V0.7,V0_7_RHO070_LEGACY_RLC_SB_T15,9108,,,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0
+V0.7,V0_7_RHO070_LEGACY_RLC_SB_T20,9101,,,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0
+V0.7,V0_7_RHO070_LEGACY_RLC_SB_T20,9102,,,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0
+V0.7,V0_7_RHO070_LEGACY_RLC_SB_T20,9103,,,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0
+V0.7,V0_7_RHO070_LEGACY_RLC_SB_T20,9104,,,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0
+V0.7,V0_7_RHO070_LEGACY_RLC_SB_T20,9105,,,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0
+V0.7,V0_7_RHO070_LEGACY_RLC_SB_T20,9106,,,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0
+V0.7,V0_7_RHO070_LEGACY_RLC_SB_T20,9107,,,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0
+V0.7,V0_7_RHO070_LEGACY_RLC_SB_T20,9108,,,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0

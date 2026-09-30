@@ -1,0 +1,195 @@
+{
+  "config_file_sha256": "23e70da2233671875735f91613709ebc57d803409b5ac7f646dae49c49e9a834",
+  "config_path": "configs/timing_rebaseline_v0_5.yaml",
+  "configuration_hash": "8fec4e9711db80820ea3d89a5c73a183cb6c39a0dd9ec9ab28ecdf1db55a4c3b",
+  "development_override": false,
+  "dirty_worktree": false,
+  "ended_utc": "2026-09-14T20:54:41.056938+00:00",
+  "environment": {
+    "deterministic_algorithms": true,
+    "device": "cpu",
+    "python": "3.12.3",
+    "python_executable": "<local-python-executable-redacted>",
+    "sionna": "2.0.1",
+    "torch": "2.11.0+cu130",
+    "torch_num_threads": 1,
+    "worker_count": 1
+  },
+  "git_sha": "d66574649168feeb4a48d95784ea7ecf1255babc",
+  "milestone": "V0.5-RB",
+  "output_sha256": {
+    "attempts.csv.gz": "f1117bab44a718b4168146582d8f16310b1596c32b0038701d7c53c9aab2dbfc",
+    "packets.csv.gz": "39e91fd8df6877ffe96d9b9903a498f514dcea2574f7da92ed25642450ae5741",
+    "recovery_timing.csv.gz": "9ceffb7310338057cfe71a4ae1e2c98d2c485d81cdef906532a801f457a38d64",
+    "slot_prb.csv.gz": "3641d6fb5dbf003a6eb68c503c94e109ed6365d31ca9190a1dc71aeeb9ffebb7",
+    "summary.json": "50acd9b0a133ad8336a35c4593cdcaf127e00435b674954403e6f7b26c082a58"
+  },
+  "resolved_configuration": {
+    "common_contract": {
+      "channel": {
+        "activity": "known",
+        "carrier_frequency_hz": 700000000.0,
+        "csi": "perfect",
+        "delay_spread_s": 3e-07,
+        "mobility_mps": 0.0,
+        "model": "TDL-C",
+        "noise_power_w": 1e-05,
+        "num_bs_receive_antennas": 2,
+        "num_ue_transmit_antennas": 1,
+        "operating_point": "Medium",
+        "receiver": "joint_LMMSE",
+        "scheduled_rv0_tbler_acceptance": [
+          0.4,
+          0.5
+        ],
+        "time_correlation": "independent_slot_blocks",
+        "transmit_power_dbm": -8.0
+      },
+      "main_seeds": [
+        9101,
+        9102,
+        9103,
+        9104,
+        9105,
+        9106,
+        9107,
+        9108
+      ],
+      "milestone": "V0.5-RB",
+      "phy": {
+        "allocated_pusch_symbols": 11,
+        "coded_bits": 504,
+        "data_re": 126,
+        "decoder_iterations": 20,
+        "dmrs_config_type": 1,
+        "dmrs_re_per_prb": 6,
+        "dmrs_symbols": [
+          2
+        ],
+        "information_bits": 160,
+        "ldpc_input_bits": 176,
+        "maximum_attempts": 4,
+        "mcs_index": 10,
+        "mcs_table": 1,
+        "modulation": "16-QAM",
+        "modulation_order": 4,
+        "prbs_per_attempt": 1,
+        "qam_symbols": 126,
+        "rv_sequence": [
+          0,
+          2,
+          3,
+          1
+        ],
+        "tb_crc_bits": 16
+      },
+      "recovery": {
+        "cb_retry_backoff_slots": 0,
+        "direct_scheduled_k2_slots": 1,
+        "fast_arq_delay_slots": 1,
+        "feedback_delay_slots": 1,
+        "harq_pusch_spacing_slots": 2,
+        "legacy_poll_retransmit_slots": 20,
+        "legacy_sr_period_slots": 10,
+        "legacy_sr_phase_domain": "v0.5-sr-phase",
+        "maximum_rlc_retransmissions": 6,
+        "scheduled_pusch_k2_slots": 1,
+        "sr_control_processing_slots": 1
+      },
+      "resource_policies": {
+        "shared_cap2": {
+          "identifier": "shared_cap2",
+          "minimum_cb_prbs": 4,
+          "mode": "shared",
+          "scheduled_capacity_prbs": 2,
+          "total_physical_prbs": 6
+        }
+      },
+      "resource_pool": {
+        "cb_selection": "event_addressed_uniform_over_available_prbs",
+        "num_prbs": 6,
+        "scheduled_priority": "earliest_target_then_arrival_then_event_addressed_tie_break",
+        "subcarrier_spacing_hz": 15000.0
+      },
+      "rng": {
+        "channel_domain": "channel",
+        "contract": "v0.4g-event-addressed-blake2s-v1",
+        "lls_awgn_domain": "lls_awgn",
+        "payload_domain": "payload_bits",
+        "sr_phase_domain": "v0.5-sr-phase",
+        "traffic_domain": "v0.4g-p2-poisson"
+      },
+      "scenarios": {
+        "V0_5_RHO090_FAST_CB": {
+          "resource_policy": "shared_cap2",
+          "rho": 0.9,
+          "scheme": "Fast-CB"
+        },
+        "V0_5_RHO090_FAST_SB": {
+          "resource_policy": "shared_cap2",
+          "rho": 0.9,
+          "scheme": "B/Fast-SB"
+        },
+        "V0_5_RHO090_LEGACY_RLC_SB_T15": {
+          "legacy_poll_retransmit_slots": 15,
+          "resource_policy": "shared_cap2",
+          "rho": 0.9,
+          "scheme": "Legacy-RLC/SB"
+        },
+        "V0_5_RHO090_LEGACY_RLC_SB_T20": {
+          "legacy_poll_retransmit_slots": 20,
+          "resource_policy": "shared_cap2",
+          "rho": 0.9,
+          "scheme": "Legacy-RLC/SB"
+        }
+      },
+      "schema_version": 4,
+      "scope": "timing-corrected high-load protocol re-baseline",
+      "stopping": {
+        "drain_to_terminal_state": true,
+        "hard_max_drain_slots": 100000,
+        "measured_new_packets": 2500,
+        "stop_arrivals_after_exact_packet_count": true,
+        "warmup_new_packets": 500
+      },
+      "traffic": {
+        "aggregate_arrival_rate_per_slot": {
+          "0.90": 5.4
+        },
+        "model": "independent_per_ue_poisson",
+        "num_ues": 3000,
+        "per_ue_arrival_rate_per_second": {
+          "0.90": 1.8
+        },
+        "per_ue_arrival_rate_per_slot": {
+          "0.90": 0.0018
+        },
+        "resource_capacity_attempts_per_slot": 6,
+        "rho_values": [
+          0.9
+        ]
+      }
+    },
+    "scenario": {
+      "resource_policy": "shared_cap2",
+      "rho": 0.9,
+      "scheme": "Fast-CB"
+    },
+    "scenario_id": "V0_5_RHO090_FAST_CB",
+    "seed": 9107
+  },
+  "rng_contract": "v0.4g-event-addressed-blake2s-v1",
+  "runtime": {
+    "channel_lmmse_eesm_seconds": 222.74258637997264,
+    "direct_sionna_lls_seconds": 652.2139017579902,
+    "peak_rss_kib": 1450816,
+    "phy_attempts": 22646,
+    "phy_attempts_per_second": 25.57433925624202,
+    "wall_seconds": 885.496973082998,
+    "worker_count": 1
+  },
+  "scenario_id": "V0_5_RHO090_FAST_CB",
+  "schema_version": 3,
+  "seed": 9107,
+  "started_utc": "2026-09-14T20:39:52.356818+00:00"
+}

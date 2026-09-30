@@ -1,0 +1,60 @@
+{
+  "artifact_sha256": {
+    "completion_curve_source.csv": "b7a9ade37f95c106c52b64f3668edf2897f1b8aa152e535a0ece755fb5de60b4",
+    "conditional_ecdf_source.csv": "98d395ad36e13dfe38f1936641c4b06a236d2d98a6e34936041c946442995d69",
+    "max_latency_histories.csv": "ffbd55eb91458dd6fed2703d072b906fadcaf0c32c303e576ac0f95bade2991e",
+    "paired_seed_differences.csv": "c4170c9d296ef20ad8b74248459235139522379559d1289b7cc2191bf029730b",
+    "paired_statistics.csv": "dcf03ab505611fa4cb55a81fdb76d78ba64056a5458a3950a14d7241b0e8c38e",
+    "per_seed_tail.csv": "ef3003fb0e67be0aeccce7e39dca31c1fad680589396f74a1c0a2dc1bb844e2b",
+    "rlc_retry_distribution.csv": "462eb5396ef332621840c0f1fc009e67689c49e886a7a1bbc18643d3b00e7fe6",
+    "run_level_kpis.csv": "ec5ceea65e8e6830a3a56b551a5c81c00743c6db951c8b1c47e082f57e88404e",
+    "scheme_seed_means.csv": "b427dbed4757778c2861d69a035335e628e7e1dfc2f9bb2fe7318f109cdf34b8",
+    "v0_6_p3_a_completion.pdf": "cc92b426d3f40d28fc574997f0de9218d457156566799637a67bb131a335aacd",
+    "v0_6_p3_a_completion.png": "147e2881ae326ee057d8fb0651a97fb1b84fa6a848de576a740349d4ef3426b5",
+    "v0_6_p3_a_completion.svg": "122611fa06fecf08933628100d792bb0194a383283217ccca119665098191764",
+    "v0_6_p3_b_tail_zoom.pdf": "7424a1648e95569a7ee550f3c1afe676573471d59fda54134c445bcc01994341",
+    "v0_6_p3_b_tail_zoom.png": "9eb3c24b5187ef079a103ab11b2bc1e613820fbc828f0f1225334052eaf6fd1b",
+    "v0_6_p3_b_tail_zoom.svg": "5691973b5b739d7ddbfc4cb90747cf01e9d4525444add553363fca42b9b3f263",
+    "v0_6_p3_c_conditional_ecdf.pdf": "e48822edce1a93c5fc203f67f3a69d1546f6a2c2bdb4e75eaf3d056cb4f13f56",
+    "v0_6_p3_c_conditional_ecdf.png": "57f0ff19de96869d3f14241dbeda5463f1d75b4cbff83c10ce66a30691bd9a6c",
+    "v0_6_p3_c_conditional_ecdf.svg": "7eea681e3f3f306fcbac523df3b1651861aff52cbd1eb4709cce9c5aa14ebf63",
+    "v0_6_p3_d_scheduled_workload.pdf": "e4a0ca6e3e7e1760c6eb14049f70081c55f68193219946999de7723931d371db",
+    "v0_6_p3_d_scheduled_workload.png": "500bc1dafb71d47ce752cd86de2f6000f6f9a4b4ca7bad0035bbae12389a93c4",
+    "v0_6_p3_d_scheduled_workload.svg": "ce249ba113fd8b2fdb3936d7ecddb836e7d1831dc41b1806d3fc0bc16dac5a24",
+    "v0_6_p3_e_hf_state.pdf": "d533ab19e4e0ac6a8221240c639a0182785743f4e8db53b9c41c887a59f299e3",
+    "v0_6_p3_e_hf_state.png": "7c1e749276abbb8e8aaef2cbddc1485f0268e17ca9c824ccc16ff5d96dd43000",
+    "v0_6_p3_e_hf_state.svg": "9ad0cb9999dd6f60292361e71008d3f775dbc899d80a8c2f4a30c6d9e6dda2b1",
+    "v0_6_p3_f_rlc_chain.pdf": "a206f8acadc57a780abfb0e3eb07add1ca6edfef885de061fce09301325e68d9",
+    "v0_6_p3_f_rlc_chain.png": "9885d083ced361e64160cf3ff0dba294fc590f310b73f7819d187c55f57fb0de",
+    "v0_6_p3_f_rlc_chain.svg": "7b0e4d23d1f19be4eb985b5b37b716e1f958c3bbeb5c3b9bf49281933fc88bce"
+  },
+  "config_sha256": "dfff30dc11d9a16468999533c7894f7303ab61dc35e623351a538c4314d824f7",
+  "execution_classification": "V0_6-P3-COMPLETE",
+  "figure_notes": {
+    "A": "correct-delivery-aware completion with pointwise seed bands",
+    "B": "tail zoom",
+    "C": "conditional ECDF excludes failures",
+    "D": "scheduled-workload mechanism",
+    "E": "H/F state",
+    "F": "RLC recovery chain"
+  },
+  "implementation_sha": "799a08aafabaa24fcf153bb2cdebc3948a2a295a",
+  "results_sha": "f4cb8b35c35c91735b0d08a8c3d2138ae225c34a",
+  "schemes": {
+    "B": "8 reused V0.5 runs",
+    "F": "8 new runs",
+    "H": "8 new runs"
+  },
+  "scientific_classification": "P3-EARLY-RESCUE-CONDITIONAL",
+  "seeds": [
+    9101,
+    9102,
+    9103,
+    9104,
+    9105,
+    9106,
+    9107,
+    9108
+  ],
+  "statistics": "paired seed-level Student-t 95% CI; exact sign-flip; leave-one-out"
+}
