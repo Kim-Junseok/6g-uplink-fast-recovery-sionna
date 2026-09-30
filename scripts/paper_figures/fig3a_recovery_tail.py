@@ -4,7 +4,7 @@ from common import make_figure, set_title, finish_axes, common_metadata, save_pa
 from config import SCHEME_STYLES
 from data_loading import mean, select, V05, V07
 
-Y_LABEL = 'P99 packet latency [slots]'
+Y_LABEL = 'P99 packet latency [ms]'
 TITLE = 'Recovery-domain tail across load'
 DELIVERY_ANNOTATION = r"$P_{{\mathrm{{del}}}} = {value:.2f}$"
 LOAD_LABELS = [r'$\rho=0.70$', r'$\rho=0.90$']

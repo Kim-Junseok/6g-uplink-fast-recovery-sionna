@@ -32,9 +32,9 @@ selected figures. Those Level 1–3 checks did not execute SLS. A later Level-4 
 | Original research history | Private; exact executed source snapshots and a SHA crosswalk are selected for this candidate | Verify snapshot completeness |
 | Accepted raw results | Retain original hashes and document every public-copy transformation | Verify the public-copy integrity report |
 | Personal paths and identifiers | Scan source, manifests, metadata, scripts, and generated output | Review remaining matches and decide redactions |
-| Sionna and other dependencies | Install public packages; do not bundle or patch a Sionna checkout | Review third-party notices and environment lock |
-| Code license | No license has been selected by the author | Decide before publication |
-| Data and figure reuse terms | No reuse terms have been selected by the author | Decide before publication |
+| Sionna and other dependencies | Install public Sionna 2.0.1; no Sionna checkout is bundled | Verify attribution and documented environment limits |
+| Code license | Apache-2.0 selected for project-authored software; see LICENSE and docs/LICENSE_SCOPE.md | Confirm coauthor and institutional rights before publication |
+| Data and figure reuse terms | CC BY 4.0 selected for distributed data and three figure PDFs; see docs/LICENSE_SCOPE.md | Confirm coauthor and institutional rights before publication |
 | Citation metadata | No final public version, DOI, or repository URL exists | Add CITATION.cff when release identity is fixed |
 | AI disclosure | Proposed Acknowledgment text is in AI_ASSISTANCE.md | Confirm against the final article before submission |
 | Reviewer access | Local Git repository only | Test unauthenticated access after a separate publication decision |

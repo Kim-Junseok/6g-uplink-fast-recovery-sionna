@@ -52,10 +52,10 @@ python -m unittest discover -s tests -v
 The full six-campaign SLS procedure is documented in SLS_REPRODUCTION.md.
 It was not executed for this candidate. A public-Sionna/PyTorch environment
 with an independently tested wheel lock is not distributed here. Before remote
-publication, the author must resolve code/data/figure rights and licenses,
-confirm final-manuscript AI disclosure, set citation/version metadata, and
-review the final package for sensitive material. No remote, release, or DOI
-was created.
+publication, the author must confirm code/data/figure reuse rights under
+the selected license scopes, confirm final-manuscript AI disclosure, set
+citation/version metadata, and review the final package for sensitive
+material. No remote, release, or DOI was created.
 
 The `clean_room_*` receipts document the earlier independent-path validation
 and retain its historical path names. Current-path machine-readable receipts
@@ -95,10 +95,13 @@ unchanged. The refreshed package checksum list covers the updated release
 scripts and documentation separately.
 
 The machine-readable receipts from this validation are generated under
-`scratch/` by the commands in [README.md](README.md). They distinguish the
-four validation levels. The final candidate still needs author-approved
-license and reuse terms, final citation metadata, and a rights and sensitivity
-review before public release. The complete 136-run SLS campaign was not rerun.
+`scratch/` by the commands in
+[Figures and accepted-record analysis](docs/FIGURES_AND_ANALYSIS.md). They
+distinguish the four validation levels. The candidate records Apache-2.0 for original
+software and CC BY 4.0 for distributed data and figures. Coauthor and
+institutional rights, final citation metadata, and sensitivity review remain
+to be confirmed before public release. The complete 136-run SLS campaign
+was not rerun.
 No new-SLS numerical tolerance was inferred from accepted-record reanalysis
 or the representative executions.
 

@@ -4,7 +4,7 @@ from common import make_figure, set_title, finish_axes, common_metadata, save_pa
 from config import SCHEME_STYLES
 from data_loading import mean, select, V05, V06_F3
 
-X_LABEL = 'Packet latency [slots]'
+X_LABEL = 'Packet latency [ms]'
 Y_LABEL = 'Packet delivery probability'
 TITLE = 'High-load packet delivery versus latency'
 X_LIMITS = (0, 780)

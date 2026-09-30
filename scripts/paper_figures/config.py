@@ -20,11 +20,11 @@ SCHEME_STYLES = {
     },
     "Fast-CB": {
         "color": "#111111", "marker": "s", "linestyle": "-.",
-        "label": "Fast-CB",
+        "label": "CB FARQ",
     },
     "B": {
         "color": "#D62728", "marker": "D", "linestyle": "-",
-        "label": "B",
+        "label": "SB FARQ",
     },
     "H3": {
         "color": "#0072B2", "marker": "^",
